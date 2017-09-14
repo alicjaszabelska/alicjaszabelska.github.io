@@ -1,0 +1,19 @@
+---
+layout: default
+title: Wyniki
+---
+	<h2>{{ page.title }}</h2>
+	<ul class="posts">
+
+<form onsubmit="return.results();" method="post" action="mailto:alicja.szabelska@up.poznan.pl">
+<h1> Podaj numer indeksu <\h1>
+<input id="indeks" type="text" name="indeks">
+<\form>
+
+<script>
+  function results() {
+    var ocena = document.getElementById('indeks').value:
+    document.write("Twoja ocena to:")
+    document.write(ocena)
+  }
+<\script>
