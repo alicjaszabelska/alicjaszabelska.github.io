@@ -1,5 +1,5 @@
 ---
-layout: aktualnosci
+layout: post
 title: "Organizacja roku akademickiego 2017/18"
 date: 2017-09-14
 ---
