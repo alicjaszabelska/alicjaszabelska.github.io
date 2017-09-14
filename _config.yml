@@ -1,7 +1,7 @@
 title: 'alicjaszabelska.github.io'
 name: 'Strona domowa Alicji Szabelskiej-Beręsewicz'
 email: alicja.szabelska@up.poznan.pl
-permalink: /aktualnosci/:year/:month/:day/:title/
+permalink: /aktualnosci/:year/:month/:day/:title.html
 
 menus:
   main:
