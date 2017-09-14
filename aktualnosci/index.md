@@ -1,6 +1,6 @@
 ---
 title: 'Aktualności'
-layout: aktualnosci
+layout: post
 ---
 
 <h3>{{ page.title }}</h3>
