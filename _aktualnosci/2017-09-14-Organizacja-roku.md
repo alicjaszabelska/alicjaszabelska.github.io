@@ -8,11 +8,11 @@ ORGANIZACJA ROKU AKADEMICKIEGO
 
 | SEMESTR ZIMOWY	           |                                    |
 | --------------------------------------------------------------- | 
-| zajęcia dydaktyczne	       | od 29.09.2017 r.$ do 28.01.2018 r. |
+| zajęcia dydaktyczne	       | od 29.09.2017 r. do 28.01.2018 r. |
 | ferie świąteczne	         | od 25.12.2017 r. do 02.01.2018 r.  |
 | zimowa sesja egzaminacyjna | od 29.01.2018 r. do 11.02.2018 r.  |
 | zimowa sesja poprawkowa	   | od 12.02.2018 r. do 18.02.2018 r.  |
-$na studiach stacjonarnych od 02.10. 2017 r.
+na studiach stacjonarnych od 02.10. 2017 r.
 
 | SEMESTR LETNI	             |                                    |
 | --------------------------------------------------------------- | 
@@ -37,6 +37,6 @@ INNA ORGANIZACJA ZAJĘĆ DYDAKTYCZNYCH
 POZOSTAŁE USTALENIA 
 - Zajęcia dydaktyczne na studiach II stopnia rozpoczynających się w semestrze letnim zaczynają się 05 marca 2018 r.
 - Dziekan, określając szczegółowe elementy organizacji roku akademickiego, może skrócić czas trwania zajęć dydaktycznych na studiach kończących się w semestrze:
-  -- zimowym – do 22 grudnia 2017 r.,
-  -- letnim – do 25 maja 2018 r.
+  + zimowym – do 22 grudnia 2017 r.,
+  + letnim – do 25 maja 2018 r.
 - W ramach skróconego okresu zajęć dydaktycznych, o których mowa obowiązuje wykonanie godzin dydaktycznych zgodnie z planem studiów.
