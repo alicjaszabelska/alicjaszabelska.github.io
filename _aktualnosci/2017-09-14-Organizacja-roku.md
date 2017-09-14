@@ -12,7 +12,6 @@ ORGANIZACJA ROKU AKADEMICKIEGO
 | ferie świąteczne	         | od 25.12.2017 r. do 02.01.2018 r.  |
 | zimowa sesja egzaminacyjna | od 29.01.2018 r. do 11.02.2018 r.  |
 | zimowa sesja poprawkowa	   | od 12.02.2018 r. do 18.02.2018 r.  |
-
 $na studiach stacjonarnych od 02.10. 2017 r.
 
 | SEMESTR LETNI	             |                                    |
