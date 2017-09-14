@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Alicja Szabelska-Beręsewicz</title>
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+	</head>
+	<body>
+		<nav>
+    		<ul>
+        		<li><a href="/">Start</a></li>
+            <li><a href="/aktualnosci">Aktualności</a></li>
+        		<li><a href="/cv">CV</a></li>
+            <li><a href="/dydaktyka">Dydaktyka</a></li>
+        		<li><a href="/kontakt">Kontakt</a></li>
+    		</ul>
+		</nav>
+    
+
+  <div id="wrap">
+
+  <h1 id='title'>{{ site.name }}</h1>
+
+  <div id="menu">
+	  <ul>
+	  {% for item in site.menus.main %}
+	    <li><a href="{{ item.href }}">{{ item.title }}</a></li>
+	  {% endfor %}
+	  </ul>
+  </div>
+
+  {{ content }}		
+
+  </div>
+    
+	
+
+	</body>
+</html>
