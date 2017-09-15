@@ -10,3 +10,5 @@ Data | Projekt
 od 2012 | Współorganizator Poznańskich Akademickich Zlotów Użytkowników R - PAZUR, Poznań
 13.12 - 14.12.2012 | Pomoc przy organizacji European Bioconductor Developers' Meeting 2012, Zurich
 29.08 - 3.09.2010	| Członek Komitetu Organizacyjnego XL Międzynarodowego Colloquium Biometrycznego, Będlewo
+
+[Powrót](/cv)
