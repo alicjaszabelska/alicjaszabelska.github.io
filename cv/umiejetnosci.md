@@ -8,7 +8,7 @@ title: Umiejętności i inne
 .tg td{padding:10px 5px;overflow:hidden;word-break:normal}
 .tg th{padding:10px 5px;overflow:hidden;word-break:normal}
 .tg .tg-9hbo{font-weight:bold;vertical-align:top}
-.tg .tg-yw4l{vertical-align:top;horizontal-align:left}
+.tg .tg-yw4l{vertical-align:top;text-align:left}
 </style>
 <table class="tg">
   <tr>
