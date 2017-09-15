@@ -5,12 +5,11 @@ title: Konferencje i warsztaty
 Data | Konferencja
 --- | ---
  **07.09 - 09.09.2015** | The 45th International Biometrical Colloquium, Dymaczewo 2015; 
- | Zyprych-Walczak J., Szabelska A., Handschuh L., Górczak K., Klamecka K., Figlerowicz M. and Siatkowski I.:The comparison of the normalization methods for RNA-Seq data analysis. - prezentacja 
-
+  | Zyprych-Walczak J., Szabelska A., Handschuh L., Górczak K., Klamecka K., Figlerowicz M. and Siatkowski I.:The comparison of the normalization methods for RNA-Seq data analysis. - prezentacja 
 **10.04.2015** | X Poznan Academic Meeting of R Users - PAZUR X, Poznań - uczestnik 
 **11.02.2015** | IX Poznan Academic Meeting of R Users - PAZUR IX, Poznań - uczestnik 
 **30.11 - 05.12.2014** | XL Konferencja Statystyka Matematyczna, Będlewo;
- | Zyprych-Walczak J., Szabelska A., Siatkowski I.:Przegląd problemów i metod związanych z analizą danych dotyczących ekspresji genów na podstawie eksperymentu głębokiego sekwencjonowania. - współautor
+  | Zyprych-Walczak J., Szabelska A., Siatkowski I.:Przegląd problemów i metod związanych z analizą danych dotyczących ekspresji genów na podstawie eksperymentu głębokiego sekwencjonowania. - współautor
 **15.10 - 17.10.2014** | Polski Akademicki Zlot Użytkowników R - PAZUR 2014, Poznań;
  | Szabelska A., Zyprych-Walczak J.:Wstęp do R - prowadzący warsztaty
  | Szabelska A., Zyprych-Walczak J.:Wykorzystanie R w analizie danych RNA-seq. - prezentacja
