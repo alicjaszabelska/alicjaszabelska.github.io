@@ -3,13 +3,6 @@ layout: page
 title: Umiejętności i inne
 ---
 
-**Języki** | .
-:--- | ---
-polski | język ojczysty
-angielski	| płynny z mowie i piśmie
-niemiecki	| podstawowy
-holenderski	| podstawowy
-
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;border:none}
 .tg td{padding:10px 5px;overflow:hidden;word-break:normal}
@@ -17,6 +10,28 @@ holenderski	| podstawowy
 .tg .tg-9hbo{font-weight:bold;vertical-align:top}
 .tg .tg-yw4l{vertical-align:top}
 </style>
+<table class="tg">
+  <tr>
+    <th class="tg-9hbo" colspan="2">Języki</th>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">polski</td>
+    <td class="tg-yw4l">język ojczysty</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">angielski</td>
+    <td class="tg-yw4l">płynny z mowie i piśmie</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">niemiecki</td>
+    <td class="tg-yw4l">podstawowy</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">holenderski</td>
+    <td class="tg-yw4l">podstawowy</td>
+  </tr>
+</table>
+
 <table class="tg">
   <tr>
     <th class="tg-9hbo" colspan="2">Narzędzi informatyczne</th>
@@ -43,10 +58,19 @@ holenderski	| podstawowy
   </tr>
 </table>
 
-**Zainteresowania pozanaukowe** | 
-:--- |
-muzyka, gra na pianinie (Szkoła Muzyczna I stopnia w Iławie) i gitarze basowej |
-żeglarstwo (patent żeglarza jachtowego), chodzenie po górach |
-rozwiązywanie łamigłówek logicznych |
+<table class="tg">
+  <tr>
+    <th class="tg-9hbo">Zainteresowania pozanaukowe</th>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">muzyka, gra na pianinie (Szkoła Muzyczna I stopnia w Iławie) i gitarze basowej</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">żeglarstwo (patent żeglarza jachtowego), chodzenie po górach</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">rozwiązywanie łamigłówek logicznych</td>
+  </tr>
+ </table>
 
 [Powrót](/cv)
