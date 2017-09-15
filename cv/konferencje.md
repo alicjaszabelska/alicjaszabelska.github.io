@@ -9,16 +9,17 @@ title: "Konferencje i warsztaty"
 .tg th{overflow:hidden;word-break:normal}
 .tg .tg-9hbo{font-weight:bold;vertical-align:top}
 .tg .tg-yw4l{vertical-align:top;text-align:left}
+.tg .tg-yw4i{vertical-align:top;text-align:left; font-style:italic}
 </style>
 <table class="tg">
 <col width="130">
   <tr>
     <td class="tg-9hbo">12.10-14.10.2016</td>
-    <td class="tg-9hbo">European R Users Meeting - eRum 2016, Poznań - uczestnik</td>
+    <td class="tg-yw4i">European R Users Meeting - eRum 2016, Poznań - uczestnik</td>
   </tr>
   <tr>
     <td class="tg-9hbo">16.06–18.06.2016</td>
-    <td class="tg-9hbo">BioInformatics in Torun 2016 - BIT16, Toruń;</td>
+    <td class="tg-yw4i">BioInformatics in Torun 2016 - BIT16, Toruń;</td>
   </tr>
   <tr>
     <td class="tg-yw4l"></td>
@@ -26,7 +27,7 @@ title: "Konferencje i warsztaty"
   </tr>
   <tr>
     <td class="tg-9hbo">07.09-09.09.2015</td>
-    <td class="tg-9hbo">The 45th International Biometrical Colloquium, Dymaczewo 2015;</td>
+    <td class="tg-yw4i">The 45th International Biometrical Colloquium, Dymaczewo 2015;</td>
   </tr>
   <tr>
     <td class="tg-yw4l"></td>
@@ -34,15 +35,15 @@ title: "Konferencje i warsztaty"
   </tr>
   <tr>
     <td class="tg-9hbo">10.04.2015</td>
-    <td class="tg-9hbo">X Poznan Academic Meeting of R Users - PAZUR X, Poznań - uczestnik</td>
+    <td class="tg-yw4i">X Poznan Academic Meeting of R Users - PAZUR X, Poznań - uczestnik</td>
   </tr>
   <tr>
     <td class="tg-9hbo">11.02.2015</td>
-    <td class="tg-9hbo">IX Poznan Academic Meeting of R Users - PAZUR IX, Poznań - uczestnik</td>
+    <td class="tg-yw4i">IX Poznan Academic Meeting of R Users - PAZUR IX, Poznań - uczestnik</td>
   </tr>
   <tr>
     <td class="tg-9hbo">30.11-05.12.2014</td>
-    <td class="tg-9hbo">XL Konferencja Statystyka Matematyczna, Będlewo;</td>
+    <td class="tg-yw4i">XL Konferencja Statystyka Matematyczna, Będlewo;</td>
   </tr>
   <tr>
     <td class="tg-yw4l"></td>
@@ -50,7 +51,7 @@ title: "Konferencje i warsztaty"
   </tr>
   <tr>
     <td class="tg-9hbo">15.10-17.10.2014</td>
-    <td class="tg-9hbo">Polski Akademicki Zlot Użytkowników R - PAZUR 2014, Poznań;</td>
+    <td class="tg-yw4i">Polski Akademicki Zlot Użytkowników R - PAZUR 2014, Poznań;</td>
   </tr>
   <tr>
     <td class="tg-yw4l"></td>
@@ -66,7 +67,7 @@ title: "Konferencje i warsztaty"
   </tr>
   <tr>
     <td class="tg-9hbo">30.06-4.07.2014</td>
-    <td class="tg-9hbo">X Working Seminar on Statistical Methods in Variety Testing, Będlewo;</td>
+    <td class="tg-yw4i">X Working Seminar on Statistical Methods in Variety Testing, Będlewo;</td>
   </tr>
   <tr>
     <td class="tg-yw4l"></td>
@@ -74,7 +75,7 @@ title: "Konferencje i warsztaty"
   </tr>
   <tr>
     <td class="tg-9hbo">21.05.2014</td>
-    <td class="tg-9hbo">Wykłady otwarte ze statystyki, UAM Poznań;</td>
+    <td class="tg-yw4i">Wykłady otwarte ze statystyki, UAM Poznań;</td>
   </tr>
   <tr>
     <td class="tg-yw4l"></td>
@@ -82,15 +83,15 @@ title: "Konferencje i warsztaty"
   </tr>
   <tr>
     <td class="tg-9hbo">11.05.2014</td>
-    <td class="tg-9hbo">VII Poznan Academic Meeting of R Users - PAZUR V, Poznań - uczestnik</td>
+    <td class="tg-yw4i">VII Poznan Academic Meeting of R Users - PAZUR V, Poznań - uczestnik</td>
   </tr>
   <tr>
     <td class="tg-9hbo">14.03.2014</td>
-    <td class="tg-9hbo">VI Poznan Academic Meeting of R Users - PAZUR V, Poznań - uczestnik</td>
+    <td class="tg-yw4i">VI Poznan Academic Meeting of R Users - PAZUR V, Poznań - uczestnik</td>
   </tr>
   <tr>
     <td class="tg-9hbo">05.03-08.03.2014</td>
-    <td class="tg-9hbo">2nd International Congress of Rare and Orphan Diseases - RE(ACT) CONGRESS 2014, Bazylea;</td>
+    <td class="tg-yw4i">2nd International Congress of Rare and Orphan Diseases - RE(ACT) CONGRESS 2014, Bazylea;</td>
   </tr>
   <tr>
     <td class="tg-yw4l"></td>
@@ -98,15 +99,15 @@ title: "Konferencje i warsztaty"
   </tr>
   <tr>
     <td class="tg-9hbo">30.01.2014</td>
-    <td class="tg-9hbo">V Poznan Academic Meeting of R Users - PAZUR V, Poznań - uczestnik</td>
+    <td class="tg-yw4i">V Poznan Academic Meeting of R Users - PAZUR V, Poznań - uczestnik</td>
   </tr>
   <tr>
     <td class="tg-9hbo">13.12.2013</td>
-    <td class="tg-9hbo">IV Poznan Academic Meeting of R Users - PAZUR IV, Poznań** - uczestnik</td>
+    <td class="tg-yw4i">IV Poznan Academic Meeting of R Users - PAZUR IV, Poznań** - uczestnik</td>
   </tr>
   <tr>
     <td class="tg-9hbo">26.11.2013</td>
-    <td class="tg-9hbo">Seminar of the Bioinformatics Group, BOKU University, Vienna;</td>
+    <td class="tg-yw4i">Seminar of the Bioinformatics Group, BOKU University, Vienna;</td>
   </tr>
   <tr>
     <td class="tg-yw4l"></td>
@@ -114,7 +115,7 @@ title: "Konferencje i warsztaty"
   </tr>
   <tr>
     <td class="tg-9hbo">26.08-30.08.2013</td>
-    <td class="tg-9hbo">18th European Young Statisticions Meeting, Osijek;</td>
+    <td class="tg-yw4i">18th European Young Statisticions Meeting, Osijek;</td>
   </tr>
   <tr>
     <td class="tg-yw4l"></td>
@@ -122,7 +123,7 @@ title: "Konferencje i warsztaty"
   </tr>
   <tr>
     <td class="tg-9hbo">13.12-14.12.2012</td>
-    <td class="tg-9hbo">European Bioconductor Developers' Meeting 2012, Zurich;</td>
+    <td class="tg-yw4i">European Bioconductor Developers' Meeting 2012, Zurich;</td>
   </tr>
   <tr>
     <td class="tg-yw4l"></td>
@@ -130,7 +131,7 @@ title: "Konferencje i warsztaty"
   </tr>
   <tr>
     <td class="tg-9hbo">12.10.2012</td>
-    <td class="tg-9hbo">Swiss Institute of Bioinformatics, Lozanna;</td>
+    <td class="tg-yw4i">Swiss Institute of Bioinformatics, Lozanna;</td>
   </tr>
   <tr>
     <td class="tg-yw4l"></td>
@@ -138,7 +139,7 @@ title: "Konferencje i warsztaty"
   </tr>
   <tr>
     <td class="tg-9hbo">25.09.2012</td>
-    <td class="tg-9hbo">Huber's Group Seminar, Heidelberg;</td>
+    <td class="tg-yw4i">Huber's Group Seminar, Heidelberg;</td>
   </tr>
   <tr>
     <td class="tg-yw4l"></td>
@@ -146,7 +147,7 @@ title: "Konferencje i warsztaty"
   </tr>
   <tr>
     <td class="tg-9hbo">24.09-26.09.2012</td>
-    <td class="tg-9hbo">European Molecular Biology Labolatory, Heidelberg;</td>
+    <td class="tg-yw4i">European Molecular Biology Labolatory, Heidelberg;</td>
   </tr>
   <tr>
     <td class="tg-yw4l"></td>
@@ -154,15 +155,15 @@ title: "Konferencje i warsztaty"
   </tr>
   <tr>
     <td class="tg-9hbo">08.09-12.09.2012</td>
-    <td class="tg-9hbo">ECCB12 - European Conference on Computational Biology, Bazylea - uczestnik</td>
+    <td class="tg-yw4i">ECCB12 - European Conference on Computational Biology, Bazylea - uczestnik</td>
   </tr>
   <tr>
     <td class="tg-9hbo">12.05.2012</td>
-    <td class="tg-9hbo">II Poznański Akademicki Zlot Użytkowników R - PAZUR 2.0, Poznań - uczestnik</td>
+    <td class="tg-yw4i">II Poznański Akademicki Zlot Użytkowników R - PAZUR 2.0, Poznań - uczestnik</td>
   </tr>
   <tr>
     <td class="tg-9hbo">18.04-20.04.2012</td>
-    <td class="tg-9hbo">Kongres Statystyki Polskiej, Poznań;</td>
+    <td class="tg-yw4i">Kongres Statystyki Polskiej, Poznań;</td>
   </tr>
   <tr>
     <td class="tg-yw4l"></td>
@@ -170,11 +171,11 @@ title: "Konferencje i warsztaty"
   </tr>
   <tr>
     <td class="tg-9hbo">05.03.2012</td>
-    <td class="tg-9hbo">Poznański Akademicki Zlot Użytkowników R - PAZUR, Poznań  - uczestnik</td>
+    <td class="tg-yw4i">Poznański Akademicki Zlot Użytkowników R - PAZUR, Poznań  - uczestnik</td>
   </tr>
   <tr>
     <td class="tg-9hbo">08.12-09.12.2011</td>
-    <td class="tg-9hbo">European Bioconductor Developers' Meeting 2011, Manchester;</td>
+    <td class="tg-yw4i">European Bioconductor Developers' Meeting 2011, Manchester;</td>
   </tr>
   <tr>
     <td class="tg-yw4l"></td>
@@ -182,7 +183,7 @@ title: "Konferencje i warsztaty"
   </tr>
   <tr>
     <td class="tg-9hbo">12.09-16.09.2011</td>
-    <td class="tg-9hbo">CEN 2011 Bridging Biostatistical Theory and Application, Zurich;</td>
+    <td class="tg-yw4i">CEN 2011 Bridging Biostatistical Theory and Application, Zurich;</td>
   </tr>
   <tr>
     <td class="tg-yw4l"></td>
@@ -190,7 +191,7 @@ title: "Konferencje i warsztaty"
   </tr>
   <tr>
     <td class="tg-9hbo">05.09-08.09.2011</td>
-    <td class="tg-9hbo">XLI International Biometricum Colloquium, Lublin;</td>
+    <td class="tg-yw4i">XLI International Biometricum Colloquium, Lublin;</td>
   </tr>
   <tr>
     <td class="tg-yw4l"></td>
@@ -198,7 +199,7 @@ title: "Konferencje i warsztaty"
   </tr>
   <tr>
     <td class="tg-9hbo">24.09-25.09.2010</td>
-    <td class="tg-9hbo">Wrocławski Zlot Użytkowników R (WZUR 3.0), Wrocław;</td>
+    <td class="tg-yw4i">Wrocławski Zlot Użytkowników R (WZUR 3.0), Wrocław;</td>
   </tr>
   <tr>
     <td class="tg-yw4l"></td>
@@ -206,7 +207,7 @@ title: "Konferencje i warsztaty"
   </tr>
   <tr>
     <td class="tg-9hbo">29.08-03.09.2010</td>
-    <td class="tg-9hbo">XL International Biometrical Colloquium and Second Polish-Portuguese Workshop on Biometry in honour of Prof. J.T. Mexia, Bedlewo;</td>
+    <td class="tg-yw4i">XL International Biometrical Colloquium and Second Polish-Portuguese Workshop on Biometry in honour of Prof. J.T. Mexia, Bedlewo;</td>
   </tr>
   <tr>
     <td class="tg-yw4l"></td>
@@ -226,11 +227,11 @@ title: "Konferencje i warsztaty"
   </tr>
   <tr>
     <td class="tg-9hbo">26.06-27.07.2010</td>
-    <td class="tg-9hbo">Tutorial workshop "Robustness: Basic Concepts and Applications", Praga - uczestnik</td>
+    <td class="tg-yw4i">Tutorial workshop "Robustness: Basic Concepts and Applications", Praga - uczestnik</td>
   </tr>
   <tr>
     <td class="tg-9hbo">25.01-29.01.2010</td>
-    <td class="tg-9hbo">30th International Study Group Mathematics with Industry 2010, Amsterdam;</td>
+    <td class="tg-yw4i">30th International Study Group Mathematics with Industry 2010, Amsterdam;</td>
   </tr>
   <tr>
     <td class="tg-yw4l"></td>
@@ -238,11 +239,11 @@ title: "Konferencje i warsztaty"
   </tr>
   <tr>
     <td class="tg-9hbo">17.05-18.05.2010</td>
-    <td class="tg-9hbo">14th Quantitative Trait Locus and Marker Assisted Selection Workshop, Poznań - uczestnik</td>
+    <td class="tg-yw4i">14th Quantitative Trait Locus and Marker Assisted Selection Workshop, Poznań - uczestnik</td>
   </tr>
   <tr>
     <td class="tg-9hbo">07.12-11.12.2009</td>
-    <td class="tg-9hbo">Statystyka Matematyczna - WISłA '09, Wisła;</td>
+    <td class="tg-yw4i">Statystyka Matematyczna - WISłA '09, Wisła;</td>
   </tr>
   <tr>
     <td class="tg-yw4l"></td>
@@ -250,11 +251,11 @@ title: "Konferencje i warsztaty"
   </tr>
   <tr>
     <td class="tg-9hbo">18.11-20.11.2009</td>
-    <td class="tg-9hbo">Microarrays in the analysis of expression of genes: The tool in the basic and clinical researches, Gliwice - uczestnik</td>
+    <td class="tg-yw4i">Microarrays in the analysis of expression of genes: The tool in the basic and clinical researches, Gliwice - uczestnik</td>
   </tr>
   <tr>
     <td class="tg-9hbo">21.09-25.09.2009</td>
-    <td class="tg-9hbo">12th International Workshop for Young Mathematicians - "Probability Theory and Statistics", Kraków - uczestnik</td>
+    <td class="tg-yw4i">12th International Workshop for Young Mathematicians - "Probability Theory and Statistics", Kraków - uczestnik</td>
   </tr>
 </table>
 
