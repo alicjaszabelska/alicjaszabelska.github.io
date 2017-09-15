@@ -2,9 +2,10 @@
 layout: default
 title: Konferencje i warsztaty
 ---
-
-| **07.09 - 09.09.2015** | The 45th International Biometrical Colloquium, Dymaczewo 2015; |
-| | Zyprych-Walczak J., Szabelska A., Handschuh L., Górczak K., Klamecka K., Figlerowicz M. and Siatkowski I.:The comparison of the normalization methods for RNA-Seq data analysis. - prezentacja |
+Data | Konferencja
+--- | ---
+ **07.09 - 09.09.2015** | The 45th International Biometrical Colloquium, Dymaczewo 2015; 
+ | Zyprych-Walczak J., Szabelska A., Handschuh L., Górczak K., Klamecka K., Figlerowicz M. and Siatkowski I.:The comparison of the normalization methods for RNA-Seq data analysis. - prezentacja 
 
 **10.04.2015** | X Poznan Academic Meeting of R Users - PAZUR X, Poznań - uczestnik 
 **11.02.2015** | IX Poznan Academic Meeting of R Users - PAZUR IX, Poznań - uczestnik 
