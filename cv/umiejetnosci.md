@@ -5,8 +5,8 @@ title: Umiejętności i inne
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;border:none}
-.tg td{padding:10px 5px;overflow:hidden;word-break:normal}
-.tg th{padding:10px 5px;overflow:hidden;word-break:normal}
+.tg td{overflow:hidden;word-break:normal}
+.tg th{overflow:hidden;word-break:normal}
 .tg .tg-9hbo{font-weight:bold;vertical-align:top}
 .tg .tg-yw4l{vertical-align:top;text-align:left}
 </style>
