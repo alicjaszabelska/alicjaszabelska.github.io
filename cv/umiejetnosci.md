@@ -3,14 +3,14 @@ layout: page
 title: Umiejętności i inne
 ---
 
-**Języki** | 
+**Języki** | .
 --- | ---
-polski - język ojczysty
-angielski	- płynny z mowie i piśmie
-niemiecki	- podstawowy
-holenderski	- podstawowy
+polski | język ojczysty
+angielski	| płynny z mowie i piśmie
+niemiecki	| podstawowy
+holenderski	| podstawowy
 
-**Narzędzi informatyczne** | 
+**Narzędzi informatyczne** | .
 --- | ---
 programy | R, Matlab - zaawansowany
 systemy |	Unix, Linux, Windows - zaawansowany
