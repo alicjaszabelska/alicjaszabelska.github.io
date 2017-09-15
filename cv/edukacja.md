@@ -11,12 +11,13 @@ title: Edukacja
 .tg th{overflow:hidden;word-break:normal}
 .tg .tg-9hbo{font-weight:bold;vertical-align:top}
 .tg .tg-yw4l{vertical-align:top;text-align:left}
+.tg .tg-yw4i{vertical-align:top;text-align:left; font-style:italic}
 </style>
 <table class="tg">
 <col width="130">
   <tr>
     <td class="tg-9hbo">10.2009 - 09.2013</td>
-    <td class="tg-yw4l">Uniwersytet Przyrodniczy w Poznaniu, Katedra Metod Matematycznych i Statystycznych - studia doktoranckie;</td>
+    <td class="tg-yw4i">Uniwersytet Przyrodniczy w Poznaniu, Katedra Metod Matematycznych i Statystycznych - studia doktoranckie;</td>
   </tr>
   <tr>
     <td class="tg-yw4l"></td>
@@ -25,7 +26,7 @@ title: Edukacja
   </tr>
   <tr>
     <td class="tg-9hbo">06.2012 - 06.2013</td>
-    <td class="tg-yw4l">Functional Genomics Center Zurich - staż naukowy w ramach grantu (nr 11.182) Programu wymiany naukowej między Szwajcarią a nowymi państwami członkowskimi Unii Europejskiej Sciex-NMSch;</td>
+    <td class="tg-yw4i">Functional Genomics Center Zurich - staż naukowy w ramach grantu (nr 11.182) Programu wymiany naukowej między Szwajcarią a nowymi państwami członkowskimi Unii Europejskiej Sciex-NMSch;</td>
   </tr>
   <tr>
     <td class="tg-yw4l"></td>
@@ -33,7 +34,7 @@ title: Edukacja
   </tr>
   <tr>
     <td class="tg-9hbo">02.2011 - 04.2011</td>
-    <td class="tg-yw4l">Functional Genomics Center Zurich - staż naukowy;</td>
+    <td class="tg-yw4i">Functional Genomics Center Zurich - staż naukowy;</td>
   </tr>
   <tr>
     <td class="tg-yw4l"></td>
@@ -46,7 +47,7 @@ title: Edukacja
 <col width="130">
   <tr>
     <td class="tg-9hbo">09.2007 - 06.2008</td>
-    <td class="tg-yw4l">Vrije Universiteit Amsterdam, Wydział Nauk Ścisłych;</td>
+    <td class="tg-yw4i">Vrije Universiteit Amsterdam, Wydział Nauk Ścisłych;</td>
   </tr>
   <tr>
     <td class="tg-yw4l"></td>
@@ -54,7 +55,7 @@ title: Edukacja
   </tr>
   <tr>
     <td class="tg-9hbo">10.2004 - 06.2009</td>
-    <td class="tg-yw4l">Uniwersytet im. Adam Mickiewicza, Wydział Matematyki i Informatyki;</td>
+    <td class="tg-yw4i">Uniwersytet im. Adam Mickiewicza, Wydział Matematyki i Informatyki;</td>
   </tr>
   <tr>
     <td class="tg-yw4l"></td>
