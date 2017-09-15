@@ -22,3 +22,5 @@ title: Publikacje
 17. Thornton A., Szabelska A., Zyprych J. et. al., (2010). Modelling and Optimization of Algae Growth. *Proceedings of the 72nd European Study Group - Mathematics with Industry*, 54-85.
 18. Siatkowski I., Goszczurna T., Szabelska A., Zyprych J., (2010). Coefficients of dissimilarity and similarity with applications. *Colloquium Biometricum* 40, p.13-23.
 19. Szabelska A., Siatkowski M., Goszczurna T., Zyprych J., (2010). Comparison of growth models in R. *Nauka Przyroda Technologia* 4 (4) #50.
+
+[Powrót](/cv)
