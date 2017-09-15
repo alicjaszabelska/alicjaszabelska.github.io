@@ -23,3 +23,5 @@ inne | Latex, MS Office - zaawansowane
 muzyka, gra na pianinie (Szkoła Muzyczna I stopnia w Iławie) i gitarze basowej |
 żeglarstwo (patent żeglarza jachtowego), chodzenie po górach |
 rozwiązywanie łamigłówek logicznych |
+
+[Powrót](/cv)
