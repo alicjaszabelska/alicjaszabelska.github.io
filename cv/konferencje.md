@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Konferencje i warsztaty
+title: "Konferencje i warsztaty"
 ---
+
 Data | Konferencja
 --- | ---
 **12.10-14.10.2016** | **European R Users Meeting - eRum 2016, Poznań** - uczestnik
