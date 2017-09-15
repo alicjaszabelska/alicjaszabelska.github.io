@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: page
 title: "Konferencje i warsztaty"
 ---
 
-Data | Konferencja
---- | ---
+Data                 | Konferencja
+-------------------- | -------------------------------------------------------------
 **12.10-14.10.2016** | **European R Users Meeting - eRum 2016, Poznań** - uczestnik
 **16.06–18.06.2016** | **BioInformatics in Torun 2016 - BIT16, Torun;**
 . | Szabelska A., Zyprych-Walczak J., Siatkowski I., Okoniewski M.: Influence of the primary analysis on discovering differentially expressed genes based on RNA-Seq data. - poster
