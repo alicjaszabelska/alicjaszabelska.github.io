@@ -11,6 +11,7 @@ title: "Konferencje i warsztaty"
 .tg .tg-yw4l{vertical-align:top;text-align:left}
 </style>
 <table class="tg">
+<col width="130">
   <tr>
     <td class="tg-9hbo">12.10-14.10.2016</td>
     <td class="tg-9hbo">European R Users Meeting - eRum 2016, Poznań - uczestnik</td>
@@ -255,5 +256,6 @@ title: "Konferencje i warsztaty"
     <td class="tg-9hbo">21.09-25.09.2009</td>
     <td class="tg-9hbo">12th International Workshop for Young Mathematicians - "Probability Theory and Statistics", Kraków - uczestnik</td>
   </tr>
+</table>
 
 [Powrót](/cv)
