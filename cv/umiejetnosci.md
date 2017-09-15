@@ -31,7 +31,7 @@ title: Umiejętności i inne
     <td class="tg-yw4l">podstawowy</td>
   </tr>
 </table>
-<br><br>
+<br>
 <table class="tg">
   <tr>
     <th class="tg-9hbo" colspan="2">Narzędzi informatyczne</th>
@@ -57,7 +57,7 @@ title: Umiejętności i inne
     <td class="tg-yw4l">Latex, MS Office - zaawansowane</td>
   </tr>
 </table>
-<br><br>
+<br>
 <table class="tg">
   <tr>
     <th class="tg-9hbo">Zainteresowania pozanaukowe</th>
