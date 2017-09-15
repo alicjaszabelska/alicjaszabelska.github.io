@@ -30,3 +30,5 @@ title: Edukacja
    kierunek: Matematyka, specjalizacja: Matematyka stosowana;
    
    Temat pracy magisterskiej: "Kopuły i ich zastosowania w zagadnieniach finansowych" - tytuł magistra uzyskany z wyróżnieniem: 06.2009.
+   
+   [Powrót](/cv)
