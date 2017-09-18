@@ -4,11 +4,11 @@ title: Wyniki
 ---
 <h2>{{ page.title }}</h2>
 
-<form onsubmit="return results();" method="post" action="javascript:alert('Hello there, I am being submitted');">
+<form onsubmit="return results();" method="post" action="return ocena();">
   <p> Podaj numer indeksu </p>
   <input id="indeks" type="text" name="indeks">
   <button type=submit>
-        Let's do it
+        Twoja ocena to:
     </button>
 </form>
 
@@ -17,5 +17,9 @@ title: Wyniki
     var ocena = document.getElementById('indeks').value:
     document.write("Twoja ocena to:")
     document.write(ocena)
+  }
+  
+  function ocena() {
+    alert('Hello there, I am being submitted')
   }
 </script>
