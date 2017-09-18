@@ -5,15 +5,22 @@ title: Wyniki
 <h2>{{ page.title }}</h2>
 
 
-<form onsubmit="return results();" method="post" action="display">
-<p> Podaj numer indeksu </p>
-<input id="indeks" type="text" name="indeks">
-</form>
+<script type="text/javascript">
+function calc()
+{
+var total = 0;
+var course = 0;
+var nrOfLessons = 0;
+var vat = 0;
 
-<script>
-  function results() {
-    var ocena = document.getElementById('indeks').value:
-    document.write("Twoja ocena to:")
-    document.write(ocena)
-  }
+course = Number(document.getElementById("course").value)
+nrOfLessons = Number(document.getElementById("nrOfLessons").value)
+
+total =(course * nrOfLessons)
+vat = total * 0.15
+total = total+ vat;
+document.getElementById('total').innerHTML = total;
+}
 </script>
+
+<div id="total"></div>
