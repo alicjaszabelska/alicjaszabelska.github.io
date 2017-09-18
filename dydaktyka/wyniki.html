@@ -4,9 +4,12 @@ title: Wyniki
 ---
 <h2>{{ page.title }}</h2>
 
-<form onsubmit="return results();" method="post" action="#">
-<p> Podaj numer indeksu </p>
-<input id="indeks" type="text" name="indeks">
+<form onsubmit="return results();" method="post" action="javascript:alert('Hello there, I am being submitted');">
+  <p> Podaj numer indeksu </p>
+  <input id="indeks" type="text" name="indeks">
+  <button type=submit>
+        Let's do it
+    </button>
 </form>
 
 <script>
