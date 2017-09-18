@@ -4,11 +4,15 @@ title: Wyniki
 ---
 <h2>{{ page.title }}</h2>
 
-<table id="mytable" border="1">
- <tr id="100000">
-  <td>10000</td>
-  <td>Twoja ocena to</td>
- </tr>
-</table>
+<form onsubmit="return results();" method="post" action="display">
+<p> Podaj numer indeksu </p>
+<input id="indeks" type="text" name="indeks">
+</form>
 
-$("#100000 td:nth-child(2)").text('5.0');
+<script>
+  function results() {
+    var ocena = document.getElementById('indeks').value:
+    document.write("Twoja ocena to:")
+    document.write(ocena)
+  }
+</script>
