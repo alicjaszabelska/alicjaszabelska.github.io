@@ -4,47 +4,11 @@ title: Wyniki
 ---
 <h2>{{ page.title }}</h2>
 
-<form id="booking">
- <strong>COURSE: </strong>
- <select id="course">
-  <optgroup label="English Courses">
-   <option value="500">Beginner English</option>
-   <option value="700">Mid-Level English</option>
-   <option value="1000">Business English</option>
-  </optgroup>
-  <optgroup label="Thai Courses">
-   <option value="500">Introduction to Thai</option>
-   <option value="700">Pasa Thai</option>
-   <option value="1000">Passa Thai Mak</option>
-  </optgroup>
- </select>
+<table id="mytable" border="1">
+ <tr id="100000">
+  <td>10000</td>
+  <td>Twoja ocena to</td>
+ </tr>
+</table>
 
- <select id="nrOfLessons">
-  <option value="5">5</option>
-  <option value="6">6</option>
-  <option value="7">7</option>
-  <option value="8">8</option>
-  <option value="9">9</option>
-  <option value="10">10</option>
- </select>
-</form>
-
-<script type="text/javascript">
-function calc()
-{
-var total = 0;
-var course = 0;
-var nrOfLessons = 0;
-var vat = 0;
-
-course = Number(document.getElementById("course").value)
-nrOfLessons = Number(document.getElementById("nrOfLessons").value)
-
-total =(course * nrOfLessons)
-vat = total * 0.15
-total = total+ vat;
-window.alert(total);
-}
-</script>
-
-<div id="resultDiv"></div>
+$("#100000 td:nth-child(2)").text('5.0');
