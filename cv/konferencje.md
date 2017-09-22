@@ -14,6 +14,14 @@ title: "Konferencje i warsztaty"
 <table class="tg">
 <col width="130">
   <tr>
+    <td class="tg-9hbo">22.07-23.07.2017</td>
+    <td class="tg-yw4i">16th International conference of Critical Assessment of Massive Data Analysis - CAMDA 2017, Praga;</td>
+  </tr>
+  tr>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l">Leśniewska A., Szabelska-Beręsewicz A., Zyprych-Walczak J., Okoniewski M.: Analysis of CAMDA RNA-seq data with the knowlegde of protein domains in genes. - współautor</td>
+  </tr>
+  <tr>
     <td class="tg-9hbo">12.10-14.10.2016</td>
     <td class="tg-yw4i">European R Users Meeting - eRum 2016, Poznań - uczestnik</td>
   </tr>
