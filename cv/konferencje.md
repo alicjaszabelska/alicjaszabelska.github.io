@@ -37,9 +37,6 @@ title: "Konferencje i warsztaty"
     <td class="tg-yw4l"></td>
     <td class="tg-yw4l">Szabelska-Beręsewicz A. i Zyprych-Walczak J.: Dyskusja biologa ze statystykiem w towa-rzystwie R - czyli jak znaleźć przydatne informacje w bezmiarze danych bio-logicznych. - zaproszony wykład</td>
   </tr>
-  
-„”
-J. Szenajch, M. Góralski, A. Świercz, A. Szabelska, J. Zyprych-Walczak, A. Synowiec, I. Siatkowski, L. Handschuh
   <tr>
     <td class="tg-9hbo">12.10-15.10.2016</td>
     <td class="tg-yw4i">IV Kongres Onkologii Polskiej, Łódź</td>
