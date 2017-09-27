@@ -14,6 +14,14 @@ title: "Konferencje i warsztaty"
 <table class="tg">
 <col width="130">
   <tr>
+    <td class="tg-9hbo">10.09-14.09.2017</td>
+    <td class="tg-yw4i">The 47th International Biometrical Colloquium, Kiry k. Zakopanego;</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l">Szabelska-Beręsewicz A., Zyprych-Walczak J., Siatkowski I.: Implementation of testing the parallelism for four-parameter logistic model in R. - poster</td>
+  </tr>
+  <tr>
     <td class="tg-9hbo">22.07-23.07.2017</td>
     <td class="tg-yw4i">16th International conference of Critical Assessment of Massive Data Analysis - CAMDA 2017, Praga;</td>
   </tr>
@@ -22,8 +30,51 @@ title: "Konferencje i warsztaty"
     <td class="tg-yw4l">Leśniewska A., Szabelska-Beręsewicz A., Zyprych-Walczak J., Okoniewski M.: Analysis of CAMDA RNA-seq data with the knowlegde of protein domains in genes. - współautor</td>
   </tr>
   <tr>
+    <td class="tg-9hbo">24.11.2016</td>
+    <td class="tg-yw4i">RBioMeSs – R and Bioinformatics/Medical statistics, Warszawa</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l">Szabelska-Beręsewicz A. i Zyprych-Walczak J.: Dyskusja biologa ze statystykiem w towa-rzystwie R - czyli jak znaleźć przydatne informacje w bezmiarze danych bio-logicznych. - zaproszony wykład</td>
+  </tr>
+  
+„”
+J. Szenajch, M. Góralski, A. Świercz, A. Szabelska, J. Zyprych-Walczak, A. Synowiec, I. Siatkowski, L. Handschuh
+  <tr>
+    <td class="tg-9hbo">12.10-15.10.2016</td>
+    <td class="tg-yw4i">IV Kongres Onkologii Polskiej, Łódź</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l">Szenajch J., Góralski M., Świercz A., Szabelska A., Zyprych-Walczak J., Synowiec A., Siatkowski I., Handschuh L.: Zmiany w ekspresji szlaków sygnałowych uczestniczące w wykształcaniu nabytej w obecności erytropoetyny oporności na cisplatynę i paklitaksel w komórkach ludzkiego raka jajnika. - współautor</td>
+  </tr>
+  <tr>
     <td class="tg-9hbo">12.10-14.10.2016</td>
     <td class="tg-yw4i">European R Users Meeting - eRum 2016, Poznań - uczestnik</td>
+  </tr>
+  <tr>
+    <td class="tg-9hbo">21.09-23.09.2016</td>
+    <td class="tg-yw4i">LXXXI Zjazd Naukowy Polskiego Towarzystwa Zootechnicznego, Warszawa</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l">Różalska-Zawieja J., Szabelska A., Nienartowicz-Zdrojewska A., Sobek Z., Siatkowski I., Zyprych-Walczak J.: Accuracy of the  selected linear models applied for estimation of the heritability coefficient  in the dairy cattle population. - współautor</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l">Różalska-Zawieja J., Szabelska A., Nienartowicz-Zdrojewska A., Sobek Z., Siatkowski I., Zyprych-Walczak J.: Herds influence of the heritability of pregnency length in the dairy cattle population. - współautor</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l">Różalska-Zawieja J., Szabelska A., Nienartowicz-Zdrojewska A., Sobek Z., Siatkowski I., Zyprych-Walczak J.: Influence of the paternity group size of the heritability of pregnancy length in dairy cattle population. - współautor</td>
+  </tr>
+  <tr>
+    <td class="tg-9hbo">05.09-07.09.2016</td>
+    <td class="tg-yw4i">The 46th International Biometrical Colloquium, Lublin</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l">Siatkowski I., Szabelska A., Zyprych-Walczak J.: Statistical methods for survival data analysis. - poster</td>
   </tr>
   <tr>
     <td class="tg-9hbo">16.06–18.06.2016</td>
@@ -32,6 +83,22 @@ title: "Konferencje i warsztaty"
   <tr>
     <td class="tg-yw4l"></td>
     <td class="tg-yw4l">Szabelska A., Zyprych-Walczak J., Siatkowski I., Okoniewski M.: Influence of the primary analysis on discovering differentially expressed genes based on RNA-Seq data. - poster</td>
+  </tr>
+  <tr>
+    <td class="tg-9hbo">08.06–10.06.2016</td>
+    <td class="tg-yw4i">Nowe osiągnięcia polskich zespołów badawczych w dziedzinie genetyki, hodowli i biotechnologii roślin, Międzyzdroje;</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l">Nawracała J., Kurasiak-Popowska D., Siatkowski I., Szabelska A.: Analiza zmienności genotypów kolekcyjnych soi pod kątem ich przydatności do hodowli w warunkach Polski. - współautor</td>
+  </tr>
+  <tr>
+    <td class="tg-9hbo">14.01.2016</td>
+    <td class="tg-yw4i">XIII Poznan Academic Meeting of R Users - PAZUR 13, Poznań</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l">Szabelska A.: Analiza i wizualizacja danych pochodzących z głębokiego sekwencjonowania na przykładzie pakietu ampliQueso - prezentacja</td>
   </tr>
   <tr>
     <td class="tg-9hbo">07.09-09.09.2015</td>
