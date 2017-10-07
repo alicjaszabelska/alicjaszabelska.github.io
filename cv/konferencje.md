@@ -39,7 +39,7 @@ title: "Konferencje i warsztaty"
   </tr>
   <tr>
     <td class="tg-9hbo">12.10-15.10.2016</td>
-    <td class="tg-yw4i">IV Kongres Onkologii Polskiej, Łódź</td>
+    <td class="tg-yw4i">IV Kongres Onkologii Polskiej, Łódź;</td>
   </tr>
   <tr>
     <td class="tg-yw4l"></td>
@@ -47,11 +47,11 @@ title: "Konferencje i warsztaty"
   </tr>
   <tr>
     <td class="tg-9hbo">12.10-14.10.2016</td>
-    <td class="tg-yw4i">European R Users Meeting - eRum 2016, Poznań - uczestnik</td>
+    <td class="tg-yw4i">European R Users Meeting - eRum 2016, Poznań - uczestnik;</td>
   </tr>
   <tr>
     <td class="tg-9hbo">21.09-23.09.2016</td>
-    <td class="tg-yw4i">LXXXI Zjazd Naukowy Polskiego Towarzystwa Zootechnicznego, Warszawa</td>
+    <td class="tg-yw4i">LXXXI Zjazd Naukowy Polskiego Towarzystwa Zootechnicznego, Warszawa;</td>
   </tr>
   <tr>
     <td class="tg-yw4l"></td>
@@ -67,7 +67,7 @@ title: "Konferencje i warsztaty"
   </tr>
   <tr>
     <td class="tg-9hbo">05.09-07.09.2016</td>
-    <td class="tg-yw4i">The 46th International Biometrical Colloquium, Lublin</td>
+    <td class="tg-yw4i">The 46th International Biometrical Colloquium, Lublin;</td>
   </tr>
   <tr>
     <td class="tg-yw4l"></td>
@@ -91,15 +91,15 @@ title: "Konferencje i warsztaty"
   </tr>
   <tr>
     <td class="tg-9hbo">14.01.2016</td>
-    <td class="tg-yw4i">XIII Poznan Academic Meeting of R Users - PAZUR 13, Poznań</td>
+    <td class="tg-yw4i">XIII Poznan Academic Meeting of R Users - PAZUR 13, Poznań;</td>
   </tr>
   <tr>
     <td class="tg-yw4l"></td>
-    <td class="tg-yw4l">Szabelska A.: Analiza i wizualizacja danych pochodzących z głębokiego sekwencjonowania na przykładzie pakietu ampliQueso - prezentacja</td>
+    <td class="tg-yw4l">Szabelska A.: Analiza i wizualizacja danych pochodzących z głębokiego sekwencjonowania na przykładzie pakietu ampliQueso. - prezentacja</td>
   </tr>
   <tr>
     <td class="tg-9hbo">28.09.2015</td>
-    <td class="tg-yw4i">RNA-Seq: strategie przetwarzania i interpretacji danych - warsztat - uczestnik;</td>
+    <td class="tg-yw4i">RNA-Seq: strategie przetwarzania i interpretacji danych - warsztat, Poznań - uczestnik;</td>
   </tr>
   <tr>
     <td class="tg-9hbo">07.09-09.09.2015</td>
@@ -111,11 +111,11 @@ title: "Konferencje i warsztaty"
   </tr>
   <tr>
     <td class="tg-9hbo">10.04.2015</td>
-    <td class="tg-yw4i">X Poznan Academic Meeting of R Users - PAZUR X, Poznań - uczestnik</td>
+    <td class="tg-yw4i">X Poznan Academic Meeting of R Users - PAZUR X, Poznań - uczestnik;</td>
   </tr>
   <tr>
     <td class="tg-9hbo">11.02.2015</td>
-    <td class="tg-yw4i">IX Poznan Academic Meeting of R Users - PAZUR IX, Poznań - uczestnik</td>
+    <td class="tg-yw4i">IX Poznan Academic Meeting of R Users - PAZUR IX, Poznań - uczestnik;</td>
   </tr>
   <tr>
     <td class="tg-9hbo">30.11-05.12.2014</td>
@@ -231,11 +231,11 @@ title: "Konferencje i warsztaty"
   </tr>
   <tr>
     <td class="tg-9hbo">08.09-12.09.2012</td>
-    <td class="tg-yw4i">ECCB12 - European Conference on Computational Biology, Bazylea - uczestnik</td>
+    <td class="tg-yw4i">ECCB12 - European Conference on Computational Biology, Bazylea - uczestnik;</td>
   </tr>
   <tr>
     <td class="tg-9hbo">12.05.2012</td>
-    <td class="tg-yw4i">II Poznański Akademicki Zlot Użytkowników R - PAZUR 2.0, Poznań - uczestnik</td>
+    <td class="tg-yw4i">II Poznański Akademicki Zlot Użytkowników R - PAZUR 2.0, Poznań - uczestnik;</td>
   </tr>
   <tr>
     <td class="tg-9hbo">18.04-20.04.2012</td>
@@ -247,7 +247,7 @@ title: "Konferencje i warsztaty"
   </tr>
   <tr>
     <td class="tg-9hbo">05.03.2012</td>
-    <td class="tg-yw4i">Poznański Akademicki Zlot Użytkowników R - PAZUR, Poznań  - uczestnik</td>
+    <td class="tg-yw4i">Poznański Akademicki Zlot Użytkowników R - PAZUR, Poznań  - uczestnik'</td>
   </tr>
   <tr>
     <td class="tg-9hbo">08.12-09.12.2011</td>
@@ -255,7 +255,7 @@ title: "Konferencje i warsztaty"
   </tr>
   <tr>
     <td class="tg-yw4l"></td>
-    <td class="tg-yw4l">Okoniewski M. J., Leśniewska A., Szabelska A., Zyprych-Walczak J.: Measures of dissimilarity of the coverage functions. - prezentacja</td>
+    <td class="tg-yw4l">Okoniewski M. J., Leśniewska A., Szabelska A., Zyprych-Walczak J.: Measures of dissimilarity of the coverage functions. - prezentacja;</td>
   </tr>
   <tr>
     <td class="tg-9hbo">12.09-16.09.2011</td>
