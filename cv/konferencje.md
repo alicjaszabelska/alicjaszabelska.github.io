@@ -98,6 +98,10 @@ title: "Konferencje i warsztaty"
     <td class="tg-yw4l">Szabelska A.: Analiza i wizualizacja danych pochodzących z głębokiego sekwencjonowania na przykładzie pakietu ampliQueso - prezentacja</td>
   </tr>
   <tr>
+    <td class="tg-9hbo">28.09.2015</td>
+    <td class="tg-yw4i">RNA-Seq: strategie przetwarzania i interpretacji danych - warsztat - uczestnik;</td>
+  </tr>
+  <tr>
     <td class="tg-9hbo">07.09-09.09.2015</td>
     <td class="tg-yw4i">The 45th International Biometrical Colloquium, Dymaczewo 2015;</td>
   </tr>
