@@ -1,3 +1,15 @@
 name: 'Strona domowa Alicji Szabelskiej-Beręsewicz'
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+navbar:
+  title: A.S-B
+  type: inverse
+  left:
+  - text: Home
+    icon: fa-home
+    href: index.html
+  - text: Aktualności
+    icon: fa-info
+    href: aktualnosci.html
+  - text: CV
+    icon: fa-gear
