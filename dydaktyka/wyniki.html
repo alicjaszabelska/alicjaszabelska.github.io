@@ -9,21 +9,23 @@ function passWord()
 {
   var testV = 1;
   var pass1 = prompt('Proszę podaj hasło',' ');
-  while (testV < 3) {
-  if (!pass1) 
+  while (testV < 3) 
+  {
+    if (!pass1) 
+    history.go(-1);
+    if (pass1.toLowerCase() == "letmein") 
+    {
+      alert('Sprawdź wynik!');
+      document.open('./oceny.html');
+      break;
+    } 
+    testV+=1;
+    var pass1 = 
+    prompt('Dostęp zablokowany - hasło niepoprawne, spróbuj ponownie.','Password');
+  }
+  if (pass1.toLowerCase()!="password" & testV ==3) 
   history.go(-1);
-  if (pass1.toLowerCase() == "letmein") {
-  alert('Sprawdź wynik!');
-  document.open('./oceny.html');
-  break;
-} 
-testV+=1;
-var pass1 = 
-prompt('Dostęp zablokowany - hasło niepoprawne, spróbuj ponownie.','Password');
-}
-if (pass1.toLowerCase()!="password" & testV ==3) 
-history.go(-1);
-return " ";
+  return " ";
 } 
 </SCRIPT>
 <CENTER>
