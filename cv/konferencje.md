@@ -28,6 +28,8 @@ title: "Konferencje i warsztaty"
   <tr>
     <td class="tg-yw4l"></td>
     <td class="tg-yw4l">Szabelska-Beręsewicz A., Okoniewski M., Siatkowski I.: Statistical methods for genes selection based on RNA-seq coverage profiles. - prezentacja</td>
+  </tr>
+  <tr>
     <td class="tg-yw4l"></td>
     <td class="tg-yw4l">Zyprych-Walczak J., Szabelska-Beręsewicz A., Siatkowski I., Leśniewska A., Okoniewski M.: Effect of gene-gene correlation in RNA-seq data analysis. - poster</td>
   </tr>
