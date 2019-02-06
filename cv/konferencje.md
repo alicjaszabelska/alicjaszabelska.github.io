@@ -19,7 +19,7 @@ title: "Konferencje i warsztaty"
   </tr>
   <tr>
     <td class="tg-yw4l"></td>
-    <td class="tg-yw4l">Szabelska-Beręsewicz A., Zyprych-Walczak J.: Statistical Analysis of RNA-seq Data – Bringing Results to Scientists. - zaproszony referat</td>
+    <td class="tg-yw4l">Szabelska-Beręsewicz A., Zyprych-Walczak J.: Statistical Analysis of RNA-seq Data - Bringing Results to Scientists. - zaproszony referat</td>
   </tr>
   <tr>
     <td class="tg-9hbo">20.08-24.08.2018</td>
