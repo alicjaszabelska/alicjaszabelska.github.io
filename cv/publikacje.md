@@ -3,6 +3,7 @@ layout: page
 title: Publikacje
 ---
 
++ Szabelska-Beręsewicz A., Jakubus M., Siatkowski I. (2018). Multivariate analysis used for evaluation of the bioavailability of heavy metals in various composts. *Nauka Przyroda Technologia*, 12(2), 221-235, doi: http://dx.doi.org/10.17306/J.NPT.00244.
 + Leśniewska A., Zyprych-Walczak J., Szabelska-Beręsewicz A., Okoniewski M. J. (2018). Genes sharing the protein family domain decrease the performance of classification with RNA-seq genomic signatures. *Biology Direct*, 13 (1), 3, doi: 10.1186/s13062-018-0205-x. [IF = 2.856]
 + Anjanappa R. B., Mehta D., Okoniewski M. J., Szabelska-Beręsewicz A., Gruissem W., Vanderschuren H. (2017). Molecular insights into Cassava brown streak virus susceptibility and resistance by profiling of the early host response. *Molecular Plant Pathology*, doi: 10.1111/mpp.12565.[IF = 4.697]
 + Różańska-Zawieja J., Szabelska-Beręsewicz A., Sobek Z., Nienartowicz-Zdrojewska A., Zyprych-Walczak J., Siatkowski I., (2017). Wpływ wielkości grup ojcowskich i stad na optymalną ocenę współczynnika odziedziczalności długości ciąży u bydła. *Roczniki Naukowe Polskiego Towarzystwa Zootechnicznego*, 13 (1), 9-17.
@@ -14,7 +15,7 @@ title: Publikacje
 + Gorczak K., Klamecka K., Szabelska A., Zyprych-Walczak J., Siatkowski I., (2014). Graphical methods for differential analysis of RNA-Seq data. *Colloquium Biometricum* 44, 167-181.
 + Szabelska A., Wiewiorka M., Okoniewski M. J., (2013). ampliQueso: Analysis of amplicon enrichment panels. Reviewed R package, Bioconductor: http://www.bioconductor.org/packages/release/bioc/html/ampliQueso.html
 + Uszczynska B., Zyprych-Walczak J., Handschuh L., Szabelska A., Kazmierczak M., Woronowicz W., Kozlowski P., Sikorski M. M., Komarnicki M., Siatkowski I., Figlerowicz M., (2013). Analysis of boutique arrays: A universal method for the selection of the optimal data normalization procedure. *International Journal of Molecular Medicine*, 32 (3), 668-684. [IF = 1.957]
-+ Tomkowiak A., Weigt D., Broda Z., Mikolajczyk S., Szabelska A., Zyprych J., Siatkowski I., (2013). Analysis of relationship between genetic and phenotypic similarity of alfaalfa mutants inflorescences. *Nauka Przyr. Technol.* 7 (3) #34.
++ Tomkowiak A., Weigt D., Broda Z., Mikolajczyk S., Szabelska A., Zyprych J., Siatkowski I., (2013). Analysis of relationship between genetic and phenotypic similarity of alfaalfa mutants inflorescences. *Nauka Przyroda Technologia* 7 (3) #34.
 + Okoniewski M. J., Meienberg J., Patrignani A., Szabelska A., Matyas G., Schlapbach R., (2013). Precise breakingpoint localization of large genomic deletions using PacBio and Illumina next generation sequencers.  Method summary. *Biotechniques*, 54 (2), 98-100. [IF = 2.669]
 + Szabelska A., Zyprych-Walczak J., Siatkowski I., (2012). Application of linear mixed models in the selection of genes from microarray experiments with repeated measurements.  *Colloquium Biometricum* 42, 103-109.
 + Okoniewski M. J., Lesniewska A., Szabelska A., Zyprych-Walczak J., Ryan M., Wachtel M., Morzy T., Schaeffer B., Schlapbach R., (2011). Preferred analysis methods for single genomic regions in RNA sequencing revealed by processing the shape of coverage. *Nucleic Acids Research*, doi: 10.1093/nar/gkr1249. [IF = 8.055]

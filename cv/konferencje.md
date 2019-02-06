@@ -14,6 +14,32 @@ title: "Konferencje i warsztaty"
 <table class="tg">
 <col width="130">
   <tr>
+    <td class="tg-9hbo">14.11-15.11.2018</td>
+    <td class="tg-yw4i">ICCVS Fall Scientific Symposium 2018, Gdańsk;</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l">Szabelska-Beręsewicz A., Zyprych-Walczak J.: Statistical Analysis of RNA-seq Data – Bringing Results to Scientists. - zaproszony referat</td>
+  </tr>
+  <tr>
+    <td class="tg-9hbo">20.08-24.08.2018</td>
+    <td class="tg-yw4i">The International Conference on Trends and Perspectives in Linear Statistical Inference - LinStat'2018, Będlewo k. Poznania;</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l">Szabelska-Beręsewicz A., Okoniewski M., Siatkowski I.: Statistical methods for genes selection based on RNA-seq coverage profiles. - prezentacja</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l">Zyprych-Walczak J., Szabelska-Beręsewicz A., Siatkowski I., Leśniewska A., Okoniewski M.: Effect of gene-gene correlation in RNA-seq data analysis. - poster</td>
+  </tr>
+  <tr>
+    <td class="tg-9hbo">08.07-13.07.2018</td>
+    <td class="tg-yw4i">The 29th International Biometric Conference - IBC2018, Barcelona;</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l">Szabelska-Beręsewicz A., Zyprych-Walczak J., Siatkowski I., Okoniewski M.: The difficult genes and their impact on RNA-seq data analysis. - prezentacja</td>
+  </tr>
+  <tr>
     <td class="tg-9hbo">10.09-14.09.2017</td>
     <td class="tg-yw4i">The 47th International Biometrical Colloquium, Kiry k. Zakopanego;</td>
   </tr>
