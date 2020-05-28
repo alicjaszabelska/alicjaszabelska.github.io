@@ -41,3 +41,5 @@ POZOSTAŁE USTALENIA
   + zimowym – do 22 grudnia 2017 r.,
   + letnim – do 25 maja 2018 r.
 - W ramach skróconego okresu zajęć dydaktycznych, o których mowa obowiązuje wykonanie godzin dydaktycznych zgodnie z planem studiów.
+
+[Powrót](/aktualnosci)
