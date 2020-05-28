@@ -3,9 +3,11 @@ layout: page
 title: Publikacje
 ---
 
++ Johnson C. R., Lettie J., Mack-Crane S., Szabelska-Beręsewicz A. (2020). Branch duplication in trees: uniqueness of seeds and enumeration of seeds. *Proyecciones (Antofagasta, On line)*, , 39(2), 451-465, doi: https://doi.org/10.22199/issn.0717-6279-2020-02-0028.
++ Różańska-Zawieja J., Szabelska-Beręsewicz A., Sobek Z., Zyprych-Walczak J., Siatkowski I. (2019). Assessment of heritability coefficient variation for various breeds of cattle. *Journal of Animal & Plant Sciences*, 39(1), 6351-6358.[IF = 0.529]
 + Szabelska-Beręsewicz A., Jakubus M., Siatkowski I. (2018). Multivariate analysis used for evaluation of the bioavailability of heavy metals in various composts. *Nauka Przyroda Technologia*, 12(2), 221-235, doi: http://dx.doi.org/10.17306/J.NPT.00244.
 + Leśniewska A., Zyprych-Walczak J., Szabelska-Beręsewicz A., Okoniewski M. J. (2018). Genes sharing the protein family domain decrease the performance of classification with RNA-seq genomic signatures. *Biology Direct*, 13 (1), 3, doi: 10.1186/s13062-018-0205-x. [IF = 2.856]
-+ Anjanappa R. B., Mehta D., Okoniewski M. J., Szabelska-Beręsewicz A., Gruissem W., Vanderschuren H. (2017). Molecular insights into Cassava brown streak virus susceptibility and resistance by profiling of the early host response. *Molecular Plant Pathology*, doi: 10.1111/mpp.12565.[IF = 4.697]
++ Anjanappa R. B., Mehta D., Okoniewski M. J., Szabelska-Beręsewicz A., Gruissem W., Vanderschuren H. (2018). Molecular insights into Cassava brown streak virus susceptibility and resistance by profiling of the early host response. *Molecular Plant Pathology*, 19(2), 476-489, doi: 10.1111/mpp.12565.[IF = 4.697]
 + Różańska-Zawieja J., Szabelska-Beręsewicz A., Sobek Z., Nienartowicz-Zdrojewska A., Zyprych-Walczak J., Siatkowski I., (2017). Wpływ wielkości grup ojcowskich i stad na optymalną ocenę współczynnika odziedziczalności długości ciąży u bydła. *Roczniki Naukowe Polskiego Towarzystwa Zootechnicznego*, 13 (1), 9-17.
 + Beręsewicz M., Alvarez A., Biecek P., Dyderski M. K., Kosiński M., Nowosad J., Rotter K., Szabelska-Beręsewicz A., Szymkowiak M., Wawrowski Ł., Zyprych-Walczak J. (2017). Conference Report: European R Users Meeting 2016. *The R Journal*, 9 (1), 501-504.
 + Szabelska-Beręsewicz, A., Bilska A., Waszkowiak K., Siatkowski I., (2016). A note on the comparison of mixed-effects models for longitudinal studies. *Biometrical Letters* 53 (2), 165-173.
