@@ -3,6 +3,7 @@ layout: page
 title: Publikacje
 ---
 
++ Szenajch, J., Szabelska-Beręsewicz, A., Świercz, A., Zyprych-Walczak, J., Siatkowski, I., Góralski, M., Synowiec, A., & Handschuh, L. (2020). Transcriptome Remodeling in Gradual Development of Inverse Resistance between Paclitaxel and Cisplatin in Ovarian Cancer Cells. *International journal of molecular sciences*, 21(23), 9218, doi: https://doi.org/10.3390/ijms21239218. [IF = 4.556]
 + Johnson C. R., Lettie J., Mack-Crane S., Szabelska-Beręsewicz A. (2020). Branch duplication in trees: uniqueness of seeds and enumeration of seeds. *Proyecciones (Antofagasta, On line)*, 39(2), 451-465, doi: https://doi.org/10.22199/issn.0717-6279-2020-02-0028.
 + Różańska-Zawieja J., Szabelska-Beręsewicz A., Sobek Z., Zyprych-Walczak J., Siatkowski I. (2019). Assessment of heritability coefficient variation for various breeds of cattle. *Journal of Animal & Plant Sciences*, 39(1), 6351-6358.[IF = 0.529]
 + Szabelska-Beręsewicz A., Jakubus M., Siatkowski I. (2018). Multivariate analysis used for evaluation of the bioavailability of heavy metals in various composts. *Nauka Przyroda Technologia*, 12(2), 221-235, doi: http://dx.doi.org/10.17306/J.NPT.00244.

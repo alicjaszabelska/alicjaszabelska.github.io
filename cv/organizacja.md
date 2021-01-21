@@ -7,6 +7,10 @@ title: Działalność organizatorska
 <table class="tg">
 <col width="130">
   <tr>
+    <td class="tg-9hbo">19.09 - 21.09.2019</td>
+    <td class="tg-yw4l">Członek Komitetu Programowego XII Sympozjum Polskiego Towarzystwa Bioinformatycznego, Kraków 2019</td>
+  </tr>
+  <tr>
     <td class="tg-9hbo">12.10 - 14.10.2016</td>
     <td class="tg-yw4l">Członek Komitetu Organizacyjnego Europejskiego Zlotu Użytkowników R - eRum 2016, Poznań</td>
   </tr>
