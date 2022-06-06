@@ -1,0 +1,41 @@
+---
+title: "Alicja Szabelska-Beręsewicz"
+image: "images/my-photo.png"
+links:
+  - label: '<i class="fab fa-github"></i> GitHub'
+    url: "https://github.com/alicjaszabelska"
+  - label: '<i class="fab fa-linkedin-in"></i> LinkedIn'
+    url: "https://www.linkedin.com/in/alicja-szabelska/"
+  - label: '<i class="fa fa-at"></i> Email'
+    url: "mailto:aszab@up.poznan.pl"
+output: postcards::jolla
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+library(metathis)
+meta() %>%
+  meta_description(
+    "The personal website of Alicja Beręsewicz"
+  ) %>%
+  meta_name("github-repo" = "alicjaszabelska") %>%
+  meta_viewport() %>%
+  meta_social(
+    title = "ALICJA BERĘSEWICZ",
+    url = "https://alicjaszabelska.github.io/",
+    image = "https://alicjaszabelska.github.io/images/logo.png",
+    image_alt = "A logo made from initials of Alicja's name placed in the blue hexagon",
+    og_type = "website",
+    og_author = c("Alicja Beręsewicz")
+  )
+```
+
+****************************************************************
+
+Hello and welcome to my personal website! 
+
+I am an adjunct professor at the Department of Mathematical and Statistical Methods at Poznań University of Life Sciences and an R enthusiast. 

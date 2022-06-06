@@ -1,0 +1,19 @@
+---
+title: "ICCVS Fall Scientific Symposium 2018, Gdańsk"
+description: |
+  Statistical Analysis of RNA-seq Data - Bringing Results to Scientists. - invited talk
+author:
+  - name: "Szabelska-Beręsewicz A."
+  - name: "Zyprych-Walczak J."
+date: 2018-11-14
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(vembedr)
+library(dplyr)
+```
