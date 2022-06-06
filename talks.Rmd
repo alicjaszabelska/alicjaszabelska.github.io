@@ -36,8 +36,7 @@ Zaburzenia rozwoju płci samic psa i kota - spojrzenie genetyka. (in Polish) Tog
 Wnętrostwo psów - poszukiwanie predysponujących markerów genetycznych. (in Polish). Together with: Stachowiak M., Nowacka-Woszuk J., Krzemińska P., Zyprych-Walczak J., Nowak T., Sosiński O., Woga W., Świtoński M.       
                                                   
 * *IX Zjazd Towarzystwa Biologii Rozrodu : Konferencja on-line*, Poznań 02-04.09.2021         
-Whole genome sequencing in searching for genetic background of disorders of sex development in French Bulldog, American Stafford Terrier and Yorkshire               
-Terriers dogs. Together with: Nowacka-Woszuk J., Stachowiak M., Szczerbal I., Szydlowski M., Zyprych-Walczak J., Nowak T., Krzeminska P., Świtonski M.                                    
+Whole genome sequencing in searching for genetic background of disorders of sex development in French Bulldog, American Stafford Terrier and Yorkshire Terriers dogs. Together with: Nowacka-Woszuk J., Stachowiak M., Szczerbal I., Szydlowski M., Zyprych-Walczak J., Nowak T., Krzeminska P., Świtonski M.                                    
 Extensive differences of gene expression profiles between descended and undescended canine testes revealed by whole transcriptome sequencing (RNA-seq). Together with: Stachowiak M., Zyprych-Walczak J., Nowak T., Krzeminska P., Sosinski O., Nowacka-Woszuk J., Świtonski M.
 
 * *Konferencja Ochrony Roślin; 61. Sesja Naukowa Instytutu Ochrony Roslin - Państwowego Instytutu Badawczego*, Poznań 10-12.02.2021         
@@ -46,7 +45,7 @@ Identyfikacja bakterii związanych z Oulema spp. w zależności od stadium rozwo
 ## 2018
 
 * *ICCVS Fall Scientific Symposium 2018*, Gdańsk 14-15.11.2018         
-Statistical Analysis of RNA-seq Data - Bringing Results to Scientists. (invited talk). Together with Zyprych-Walczak J.
+Statistical Analysis of RNA-seq Data - Bringing Results to Scientists (invited talk). Together with Zyprych-Walczak J.
 
 * *The International Conference on Trends and Perspectives in Linear Statistical Inference - LinStat'2018*, Będlewo k. Poznania 20-24.08.2018         
 Statistical methods for genes selection based on RNA-seq coverage profiles. Together with: Okoniewski M., Siatkowski I.
@@ -68,14 +67,14 @@ Analysis of CAMDA RNA-seq data with the knowlegde of protein domains in genes. T
 * *RBioMeSs -- R and Bioinformatics/Medical statistics*, Warszawa 24.11.2016                                  
 Dyskusja biologa ze statystykiem w towa-rzystwie R - czyli jak znaleźć przydatne informacje w bezmiarze danych biologicznych. (invited talk) Together with: Zyprych-Walczak J.                
 
-* *IV Kongres Onkologii Polskiej*, Łódź 12-15.10.2016         
-Zmiany w ekspresji szlaków sygnałowych uczestniczące w wykształcaniu nabytej w obecności erytropoetyny oporności na cisplatynę i paklitaksel w komórkach ludzkiego raka jajnika. Together with: Szenajch J., Góralski M., Świercz A., Zyprych-Walczak J., Synowiec A., Siatkowski I., Handschuh L.                  
+* *IV Kongres Onkologii Polskiej*, Łódź 12-15.10.2016                  
+Zmiany w ekspresji szlaków sygnałowych uczestniczące w wykształcaniu nabytej w obecności erytropoetyny oporności na cisplatynę i paklitaksel w komórkach ludzkiego raka jajnika (in Polish). Together with: Szenajch J., Góralski M., Świercz A., Zyprych-Walczak J., Synowiec A., Siatkowski I., Handschuh L.                  
 
 * *European R Users Meeting - eRum 2016*, Poznań - organiser 12-14.10.2016         
 
-* *LXXXI Zjazd Naukowy Polskiego Towarzystwa Zootechnicznego*, Warszawa 21-23.09.2016         
+* *LXXXI Zjazd Naukowy Polskiego Towarzystwa Zootechnicznego*, Warszawa 21-23.09.2016                  
 Accuracy of the selected linear models applied for estimation of the heritability coefficient in the dairy cattle population. Together with: Różalska-Zawieja J., Nienartowicz-Zdrojewska A., Sobek Z., Siatkowski I., Zyprych-Walczak J.                                             
-Herds influence of the heritability of pregnency length in the dairy cattle population. Together with: Różalska-Zawieja J., Nienartowicz-Zdrojewska A., Sobek Z., Siatkowski I., Zyprych-Walczak J.
+Herds influence of the heritability of pregnency length in the dairy cattle population. Together with: Różalska-Zawieja J., Nienartowicz-Zdrojewska A., Sobek Z., Siatkowski I., Zyprych-Walczak J.                  
 Influence of the paternity group size of the heritability of pregnancy length in dairy cattle population.Różalska-Zawieja J., Nienartowicz-Zdrojewska A., Sobek Z., Siatkowski I.,  Zyprych-Walczak J.                             
 
 * *The 46th International Biometrical Colloquium*, Lublin 05-07.09.2016         
@@ -133,9 +132,9 @@ True Haploinsufficiency in Rare Aortic Diseases: Identification and Characteriza
 * *IV Poznan Academic Meeting of R Users - PAZUR IV*, Poznań - participant 13.12.2013         
 
 * *Seminar of the Bioinformatics Group, BOKU University*  Vienna 26.11.2013         
-Microarray vs RNA-seq - novel appoaches for searching interesting genes (invited talk) Together with: Zyprych-Walczak J.and Siatkowski I.
+Microarray vs RNA-seq - novel appoaches for searching interesting genes (invited talk). Together with: Zyprych-Walczak J.and Siatkowski I.
                               
-* *18th European Young Statisticions Meeting*, Osijek 26-30.08.2013         
+* *18th European Young Statisticions Meeting*, Osijek - polish representant 26-30.08.2013         
 Statistical methods for RNAseq coverage profiles and their applications in biological phenomena. Together with Siatkowski I., Okoniewski M.                   
 
 ## 2012
@@ -177,9 +176,9 @@ Wykorzystanie liniowego modelu mieszanego w problemie selekcji genów. Together 
 Selected multivariate mixed models.
 
 * *XL International Biometrical Colloquium and Second Polish-Portuguese Workshop on Biometry in honour of Prof. J.T. Mexia*, Bedlewo 29.08-03.09.2010         
-Gene's selection based on statistical tests. Together with: Zyprych J. and Siatkowski I.
-Overview of growth models in R. Together with: Siatkowski M., Goszczurna T. and Zyprych J.
-Morfological analysis of inflorescence mutants in alfalfa (Medicago sativa L.sl.) with the respect to seed yield traits. Together with: Weigt D., Zyprych J., Siatkowski I. and Broda Z.
+Gene's selection based on statistical tests. Together with: Zyprych J. and Siatkowski I.                  
+Overview of growth models in R. Together with: Siatkowski M., Goszczurna T. and Zyprych J.                  
+Morfological analysis of inflorescence mutants in alfalfa (Medicago sativa L.sl.) with the respect to seed yield traits. Together with: Weigt D., Zyprych J., Siatkowski I. and Broda Z.                  
 Analiza zróżnicowania genetycznego odmian i klonów koniczyny białej (Trifolium Repens L.) przy użyciu markerów molekularnych. Together with: Tomkowiak A., Zyprych J., Broda Z. and Siatkowski I.
 
 * *Tutorial workshop "Robustness: Basic Concepts and Applications"*, Praga - participant 26-27.06.2010         
