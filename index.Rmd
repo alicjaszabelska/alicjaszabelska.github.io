@@ -20,17 +20,17 @@ knitr::opts_chunk$set(echo = FALSE)
 library(metathis)
 meta() %>%
   meta_description(
-    "The personal website of Alicja Beręsewicz"
+    "The personal website of Alicja Szabelska-Beręsewicz"
   ) %>%
   meta_name("github-repo" = "alicjaszabelska") %>%
   meta_viewport() %>%
   meta_social(
-    title = "ALICJA BERĘSEWICZ",
+    title = "ALICJA SZABELSKA-BERĘSEWICZ",
     url = "https://alicjaszabelska.github.io/",
     image = "https://alicjaszabelska.github.io/images/logo.png",
     image_alt = "A logo made from initials of Alicja's name placed in the blue hexagon",
     og_type = "website",
-    og_author = c("Alicja Beręsewicz")
+    og_author = c("Alicja Szabeska-Beręsewicz")
   )
 ```
 

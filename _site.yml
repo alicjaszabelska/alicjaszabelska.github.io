@@ -1,12 +1,12 @@
 name: "personal_website_distill"
 title: ""
 description: |
-  Alicja Beręsewicz
+  Alicja Szabelska-Beręsewicz
 output_dir: "docs"
 navbar:
   logo:
     image: images/logo.png
-    href: https://alicjaberesewicz.github.io
+    href: https://alicjaszabelska.github.io
   left:
     - text: "Publications"
       href: publications.html
