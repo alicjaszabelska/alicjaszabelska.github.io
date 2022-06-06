@@ -1,44 +1,10 @@
 ---
-title: "Alicja Szabelska-Beręsewicz"
-image: "images/my-photo.png"
-links:
-  - label: '<i class="fab fa-github"></i> GitHub'
-    url: "https://github.com/alicjaszabelska"
-  - label: '<i class="fab fa-linkedin-in"></i> LinkedIn'
-    url: "https://www.linkedin.com/in/alicja-szabelska/"
-  - label: '<i class="fa fa-at"></i> Email'
-    url: "mailto:aszab@up.poznan.pl"
-theme: theme.css
-output:
-  postcards::trestles
-site: distill::distill_website
+title: "About this site"
+description: |
+  Some additional details about the website
 ---
- 
-## Bio
 
-I am currently working as an adjunct proffesor at the Department of Mathematical and Statistical Methods at Poznań University of Life Sciences. I am interested in seeking of mathematical solutions to biological problems, in particular the issues concerning next generation sequencing technology. I am specialist in the field of RNA-seq (and other high-throughoutput technologies) data analysis. I am creating statistical and bioinformatics tools that aim to the development of statistical methods for the analysis of high-throughput sequencing data. 
-I gained my scientific experience during research internships in Zurich and Williamsburg, including one-year scholarship under the Sciex program at the Functional Genomic Center Zurich. An important element of my work is cooperation within interdisciplinary projects with centers such as the Institute of Human Genetics and the Institute of Bioorganic Chemistry of the Polish Academy of Sciences in Poznań, Institute of Plant Protection - PIB, Poznań University of Technology, University of Gdańsk, Military Medical Institute in Warsaw, ETH in Zurich, UZH in Zurich and the BOKU University in Vienna.
-In my daily work I use R as a basic tool for working with genetic data. In 2016, I was a co-inventor and co-organizer of the first eRum conference (European R Users Meeting). In addition, I am a member of the PAZUR group (Poznań R-Users' Gold) and I promote R wherever possible. I also have many years of experience in conducting workshops and consulting services in the fields of statistics, data analysis and RNA-seq data analysis.
-
-## Experience
-
-**Poznań University of Life Sciences** | adjunct professor | 10.2013 - present
-
-**College of William and Mary** | mentor during Research Experience for Undergraduate Students | 06.2014 - 07.2014
-
-**Functional Genomics Center Zurich** | scientific intership | 02.2011 - 04.20011 and 06.2012 - 06.2013
-
-## Education
-
-**Functional Genomics Center Zurich** | UZH/ETH, Zurich
-
-Ph.D. intership via Sciex-NMSch | 06.2012 - 06.20013
-
-**Department of Mathematical and Statistical Methods** | Poznań University of Life Sciences, Poznań
-
-Ph.D. in Biotechnology | 10.2009 - 09.2013
-
-**Faculty of Mathematics and Computer Science** | Adam Mickiewicz University, Poznań
-
-MSc in Mathematics | 10.2004 - 09.2009
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
 

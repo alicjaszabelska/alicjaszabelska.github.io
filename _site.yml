@@ -2,7 +2,7 @@ name: "personal_website_distill"
 title: ""
 description: |
   Alicja Beręsewicz
-output_dir: "_site"
+output_dir: "docs"
 navbar:
   logo:
     image: images/logo.png
@@ -21,4 +21,4 @@ navbar:
       href: didactics.html
 output: 
   distill::distill_article
-theme: theme.css    
+theme: theme.css   
