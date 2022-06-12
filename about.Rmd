@@ -20,7 +20,7 @@ I am currently working as an adjunct proffesor at the Department of Mathematical
 
 I gained my scientific experience during research internships in Zurich and Williamsburg, including one-year scholarship under the Sciex program at the Functional Genomic Center Zurich. An important element of my work is cooperation within interdisciplinary projects with centers such as the Institute of Human Genetics and the Institute of Bioorganic Chemistry of the Polish Academy of Sciences in Poznań, Institute of Plant Protection - PIB, Poznań University of Technology, University of Gdańsk, Military Medical Institute in Warsaw, ETH in Zurich, UZH in Zurich and the BOKU University in Vienna.
 
-In my daily work I use R as a basic tool for working with genetic data. In 2016, I was a co-inventor and co-organizer of the first eRum conference (European R Users Meeting). In addition, I am a member of the PAZUR group (Poznań R-Users' Gold) and I promote R wherever possible. I also have many years of experience in conducting workshops and consulting services in the fields of statistics, data analysis and RNA-seq data analysis.
+In my daily work I use R as a basic tool for working with genetic data. In 2016, I was a co-inventor and co-organizer of the first eRum conference (European R Users Meeting). In addition, I am a member of the PAZUR group (Poznań R-Users' Group) and I promote R wherever possible. I also have many years of experience in conducting workshops and consulting services in the fields of statistics, data analysis and RNA-seq data analysis.
 
 ## Experience
 
