@@ -50,17 +50,16 @@ pre.numberSource code > span > a:first-child::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  { color: #00769e; background-color: #f1f3f5; }
+  {   }
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-code span { color: #00769e; } /* Normal */
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { color: #657422; } /* Attribute */
+code span.at { } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
-code span.cf { color: #00769e; } /* ControlFlow */
+code span.cf { color: #007ba5; } /* ControlFlow */
 code span.ch { color: #20794d; } /* Char */
 code span.cn { color: #8f5902; } /* Constant */
 code span.co { color: #5e5e5e; } /* Comment */
@@ -74,9 +73,9 @@ code span.fl { color: #ad0000; } /* Float */
 code span.fu { color: #4758ab; } /* Function */
 code span.im { } /* Import */
 code span.in { color: #5e5e5e; } /* Information */
-code span.kw { color: #00769e; } /* Keyword */
+code span.kw { color: #007ba5; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
-code span.ot { color: #00769e; } /* Other */
+code span.ot { color: #007ba5; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
 code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
@@ -1028,6 +1027,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     margin-top: 1.5em;
   }
 
+  .figure img {
+    width: 100%;
+  }
+
   .figure .caption {
     color: rgba(0, 0, 0, 0.6);
     font-size: 12px;
@@ -1857,12 +1860,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
-          var fn = $(this).children()[0]
-          $(this).html(fn.shadowRoot.querySelector("sup"))
-          $(this).id = fn.id
-          fn.remove()
-        }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
           return "<p>" + $('#ref-' + ref).html() + "</p>";
@@ -1877,31 +1874,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
           placement: 'bottom-start'
         });
       });
-
-      // fix footnotes in tables (#411)
-      // replacing broken distill.pub feature
-      $('table d-footnote').each(function() {
-        // we replace internal showAtNode methode which is triggered when hovering a footnote
-        this.hoverBox.showAtNode = function(node) {
-          // ported from https://github.com/distillpub/template/pull/105/files
-          calcOffset = function(elem) {
-              let x = elem.offsetLeft;
-              let y = elem.offsetTop;
-              // Traverse upwards until an `absolute` element is found or `elem`
-              // becomes null.
-              while (elem = elem.offsetParent && elem.style.position != 'absolute') {
-                  x += elem.offsetLeft;
-                  y += elem.offsetTop;
-              }
-
-              return { left: x, top: y };
-          }
-          // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop
-          const bbox = node.getBoundingClientRect();
-          const offset = calcOffset(node);
-          this.show([offset.left + bbox.width, offset.top + bbox.height]);
-        }
-      })
 
       // clear polling timer
       clearInterval(tid);
@@ -2001,8 +1973,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     // mark non-body figures created by knitr chunks as 100% width
     $('.layout-chunk').each(function(i, val) {
       var figures = $(this).find('img, .html-widget');
-      // ignore leaflet img layers (#106)
-      figures = figures.filter(':not(img[class*="leaflet"])')
       if ($(this).attr('data-layout') !== "l-body") {
         figures.css('width', '100%');
       } else {
@@ -2025,7 +1995,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     // get rid of index.html references in header
     if (window.location.protocol !== "file:") {
       $('.distill-site-header a[href]').each(function(i,val) {
-        $(this).attr('href', $(this).attr('href').replace(/^index[.]html/, "./"));
+        $(this).attr('href', $(this).attr('href').replace("index.html", "./"));
       });
     }
 
@@ -2384,7 +2354,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2446,193 +2416,94 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
-<li><a href="#section">2021</a></li>
-<li><a href="#section-1">2020</a></li>
-<li><a href="#section-2">2019</a></li>
-<li><a href="#section-3">2018</a></li>
-<li><a href="#section-4">2017</a></li>
-<li><a href="#section-5">2016</a></li>
-<li><a href="#section-6">2015</a></li>
-<li><a href="#section-7">2014</a></li>
-<li><a href="#section-8">2013</a></li>
-<li><a href="#section-9">2012</a></li>
-<li><a href="#section-10">2011</a></li>
-<li><a href="#section-11">2010</a></li>
+<li><a href="#section">2022</a></li>
+<li><a href="#section-1">2021</a></li>
+<li><a href="#section-2">2020</a></li>
+<li><a href="#section-3">2019</a></li>
+<li><a href="#section-4">2018</a></li>
+<li><a href="#section-5">2017</a></li>
+<li><a href="#section-6">2016</a></li>
+<li><a href="#section-7">2015</a></li>
+<li><a href="#section-8">2014</a></li>
+<li><a href="#section-9">2013</a></li>
+<li><a href="#section-10">2012</a></li>
+<li><a href="#section-11">2011</a></li>
+<li><a href="#section-12">2010</a></li>
 </ul>
 </nav>
 </div>
-<h2 id="section">2021</h2>
+<h2 id="section">2022</h2>
 <ul>
-<li>Wielkopolan, B., Krawczyk, K., Szabelska-Beręsewicz, A.,
-Obrępalska-Stęplowska, A. (2021). The structure of the cereal leaf
-beetle (Oulema melanopus) microbiome depends on the insect’s
-developmental stage, host plant, and origin. Scientific reports, 11(1),
-1–19, doi: <a href="https://doi.org/10.1038/s41598-021-99411-9"
-class="uri">https://doi.org/10.1038/s41598-021-99411-9</a></li>
-<li>Mikac, S., Rychłowski, M., Dziadosz, A., Szabelska-Beresewicz, A.,
-Fahraeus, R., Hupp, T., Sznarkowska, A. (2021). Identification of a
-Stable, Non-Canonically Regulated Nrf2 Form in Lung Cancer Cells.
-Antioxidants, 10(5), 786, doi: <a
-href="https://doi.org/10.3390/antiox10050786"
-class="uri">https://doi.org/10.3390/antiox10050786</a></li>
-<li>Różańska-Zawieja, J., Winnicki, S., Zyprych-Walczak, J.,
-Szabelska-Beręsewicz, A., Siatkowski, I., Nowak, W., Stefańska, B.,
-Kujawiak, R., Sobek, Z. (2021). The Effect of Feeding Management and
-Culling of Cows on the Lactation Curves and Milk Production of
-Primiparous Dairy Cows. Animals, 11(7), 1959, doi: <a
-href="https://doi.org/10.3390/ani11071959"
-class="uri">https://doi.org/10.3390/ani11071959</a></li>
+<li>Nowacka-Woszuk, J., Stachowiak, M., Szczerbal, I., Szydlowski, M., Szabelska-Beresewicz, A., Zyprych-Walczak, J., … &amp; Switonski, M. (2022). Whole genome sequencing identifies a missense polymorphism in PADI6 associated with testicular/ovotesticular XX disorder of sex development in dogs. <em>Genomics</em>, 114(4), 110389, doi: <a href="https://doi.org/10.1016/j.ygeno.2022.110389" class="uri">https://doi.org/10.1016/j.ygeno.2022.110389</a></li>
+<li>Sobek, Z., Rozanska-Zawieja, J., Siatkowski, I., Szabelska-Beresewicz, A., &amp; Zyprych-Walczak, J. (2022). Assessment of the accuracy of selected models used to estimate the heritability coefficient in a cattle population. <em>Animal Science and Genetics</em>, 18(1), doi: <a href="https://10.5604/01.3001.0015.7774" class="uri">https://10.5604/01.3001.0015.7774</a></li>
 </ul>
-<h2 id="section-1">2020</h2>
+<h2 id="section-1">2021</h2>
 <ul>
-<li>Szenajch, J., Szabelska-Beręsewicz, A., Świercz, A.,
-Zyprych-Walczak, J., Siatkowski, I., Góralski, M., Synowiec, A., &amp;
-Handschuh, L. (2020). Transcriptome Remodeling in Gradual Development of
-Inverse Resistance between Paclitaxel and Cisplatin in Ovarian Cancer
-Cells. <em>International journal of molecular sciences</em>, 21(23),
-9218, doi: <a href="https://doi.org/10.3390/ijms21239218"
-class="uri">https://doi.org/10.3390/ijms21239218</a>.</li>
-<li>Johnson C. R., Lettie J., Mack-Crane S., Szabelska-Beręsewicz A.
-(2020). Branch duplication in trees: uniqueness of seeds and enumeration
-of seeds. <em>Proyecciones (Antofagasta, On line)</em>, 39(2), 451-465,
-doi: <a href="https://doi.org/10.22199/issn.0717-6279-2020-02-0028"
-class="uri">https://doi.org/10.22199/issn.0717-6279-2020-02-0028</a>.</li>
+<li>Wielkopolan, B., Krawczyk, K., Szabelska-Beręsewicz, A., Obrępalska-Stęplowska, A. (2021). The structure of the cereal leaf beetle (Oulema melanopus) microbiome depends on the insect’s developmental stage, host plant, and origin. Scientific reports, 11(1), 1–19, doi: <a href="https://doi.org/10.1038/s41598-021-99411-9" class="uri">https://doi.org/10.1038/s41598-021-99411-9</a></li>
+<li>Mikac, S., Rychłowski, M., Dziadosz, A., Szabelska-Beresewicz, A., Fahraeus, R., Hupp, T., Sznarkowska, A. (2021). Identification of a Stable, Non-Canonically Regulated Nrf2 Form in Lung Cancer Cells. <em>Antioxidants</em>, 10(5), 786, doi: <a href="https://doi.org/10.3390/antiox10050786" class="uri">https://doi.org/10.3390/antiox10050786</a></li>
+<li>Różańska-Zawieja, J., Winnicki, S., Zyprych-Walczak, J., Szabelska-Beręsewicz, A., Siatkowski, I., Nowak, W., Stefańska, B., Kujawiak, R., Sobek, Z. (2021). The Effect of Feeding Management and Culling of Cows on the Lactation Curves and Milk Production of Primiparous Dairy Cows. <em>Animals</em>, 11(7), 1959, doi: <a href="https://doi.org/10.3390/ani11071959" class="uri">https://doi.org/10.3390/ani11071959</a></li>
 </ul>
-<h2 id="section-2">2019</h2>
+<h2 id="section-2">2020</h2>
 <ul>
-<li>Różańska-Zawieja J., Szabelska-Beręsewicz A., Sobek Z.,
-Zyprych-Walczak J., Siatkowski I. (2019). Assessment of heritability
-coefficient variation for various breeds of cattle. <em>Journal of
-Animal &amp; Plant Sciences</em>, 39(1), 6351-6358.</li>
+<li>Szenajch, J., Szabelska-Beręsewicz, A., Świercz, A., Zyprych-Walczak, J., Siatkowski, I., Góralski, M., Synowiec, A., &amp; Handschuh, L. (2020). Transcriptome Remodeling in Gradual Development of Inverse Resistance between Paclitaxel and Cisplatin in Ovarian Cancer Cells. <em>International journal of molecular sciences</em>, 21(23), 9218, doi: <a href="https://doi.org/10.3390/ijms21239218" class="uri">https://doi.org/10.3390/ijms21239218</a>.</li>
+<li>Johnson C. R., Lettie J., Mack-Crane S., Szabelska-Beręsewicz A. (2020). Branch duplication in trees: uniqueness of seeds and enumeration of seeds. <em>Proyecciones (Antofagasta, On line)</em>, 39(2), 451-465, doi: <a href="https://doi.org/10.22199/issn.0717-6279-2020-02-0028" class="uri">https://doi.org/10.22199/issn.0717-6279-2020-02-0028</a>.</li>
 </ul>
-<h2 id="section-3">2018</h2>
+<h2 id="section-3">2019</h2>
 <ul>
-<li>Szabelska-Beręsewicz A., Jakubus M., Siatkowski I. (2018).
-Multivariate analysis used for evaluation of the bioavailability of
-heavy metals in various composts. <em>Nauka Przyroda Technologia</em>,
-12(2), 221-235, doi: <a href="http://dx.doi.org/10.17306/J.NPT.00244"
-class="uri">http://dx.doi.org/10.17306/J.NPT.00244</a>.</li>
-<li>Leśniewska A., Zyprych-Walczak J., Szabelska-Beręsewicz A.,
-Okoniewski M. J. (2018). Genes sharing the protein family domain
-decrease the performance of classification with RNA-seq genomic
-signatures. <em>Biology Direct</em>, 13 (1), 3, doi:
-10.1186/s13062-018-0205-x.</li>
+<li>Różańska-Zawieja J., Szabelska-Beręsewicz A., Sobek Z., Zyprych-Walczak J., Siatkowski I. (2019). Assessment of heritability coefficient variation for various breeds of cattle. <em>Journal of Animal &amp; Plant Sciences</em>, 39(1), 6351-6358.</li>
 </ul>
-<h2 id="section-4">2017</h2>
+<h2 id="section-4">2018</h2>
 <ul>
-<li>Anjanappa R. B., Mehta D., Okoniewski M. J., Szabelska-Beręsewicz
-A., Gruissem W., Vanderschuren H. (2017). Molecular insights into
-Cassava brown streak virus susceptibility and resistance by profiling of
-the early host response. <em>Molecular Plant Pathology</em>, doi:
-10.1111/mpp.12565.</li>
-<li>Różańska-Zawieja J., Szabelska-Beręsewicz A., Sobek Z.,
-Nienartowicz-Zdrojewska A., Zyprych-Walczak J., Siatkowski I., (2017).
-Wpływ wielkości grup ojcowskich i stad na optymalną ocenę współczynnika
-odziedziczalności długości ciąży u bydła. <em>Roczniki Naukowe Polskiego
-Towarzystwa Zootechnicznego</em>, 13 (1), 9-17.</li>
-<li>Beręsewicz M., Alvarez A., Biecek P., Dyderski M. K., Kosiński M.,
-Nowosad J., Rotter K., Szabelska-Beręsewicz A., Szymkowiak M., Wawrowski
-Ł., Zyprych-Walczak J. (2017). Conference Report: European R Users
-Meeting 2016. <em>The R Journal</em>, 9 (1), 501-504.</li>
+<li>Szabelska-Beręsewicz A., Jakubus M., Siatkowski I. (2018). Multivariate analysis used for evaluation of the bioavailability of heavy metals in various composts. <em>Nauka Przyroda Technologia</em>, 12(2), 221-235, doi: <a href="http://dx.doi.org/10.17306/J.NPT.00244" class="uri">http://dx.doi.org/10.17306/J.NPT.00244</a>.</li>
+<li>Leśniewska A., Zyprych-Walczak J., Szabelska-Beręsewicz A., Okoniewski M. J. (2018). Genes sharing the protein family domain decrease the performance of classification with RNA-seq genomic signatures. <em>Biology Direct</em>, 13 (1), 3, doi: 10.1186/s13062-018-0205-x.</li>
 </ul>
-<h2 id="section-5">2016</h2>
+<h2 id="section-5">2017</h2>
 <ul>
-<li>Szabelska-Beręsewicz, A., Bilska A., Waszkowiak K., Siatkowski I.,
-(2016). A note on the comparison of mixed-effects models for
-longitudinal studies. <em>Biometrical Letters</em> 53 (2), 165-173.</li>
-<li>Szenajch J., Góralski M., Świercz A., Szabelska A., Zyprych-Walczak
-J., Synowiec A., Siatkowski I., Handschuh L. (2016). Zmiany w ekspresji
-szlaków sygnałowych uczestniczące w wykształcaniu nabytej w obecności
-erytropoetyny oporności na ci-splatynę i paklitaksel w komórkach
-ludzkiego raka jajnika. Nowotwory, vol. 66, suppl. 2, p. 50.</li>
+<li>Anjanappa R. B., Mehta D., Okoniewski M. J., Szabelska-Beręsewicz A., Gruissem W., Vanderschuren H. (2017). Molecular insights into Cassava brown streak virus susceptibility and resistance by profiling of the early host response. <em>Molecular Plant Pathology</em>, doi: 10.1111/mpp.12565.</li>
+<li>Różańska-Zawieja J., Szabelska-Beręsewicz A., Sobek Z., Nienartowicz-Zdrojewska A., Zyprych-Walczak J., Siatkowski I., (2017). Wpływ wielkości grup ojcowskich i stad na optymalną ocenę współczynnika odziedziczalności długości ciąży u bydła. <em>Roczniki Naukowe Polskiego Towarzystwa Zootechnicznego</em>, 13 (1), 9-17.</li>
+<li>Beręsewicz M., Alvarez A., Biecek P., Dyderski M. K., Kosiński M., Nowosad J., Rotter K., Szabelska-Beręsewicz A., Szymkowiak M., Wawrowski Ł., Zyprych-Walczak J. (2017). Conference Report: European R Users Meeting 2016. <em>The R Journal</em>, 9 (1), 501-504.</li>
 </ul>
-<h2 id="section-6">2015</h2>
+<h2 id="section-6">2016</h2>
 <ul>
-<li>Wiewiorka M. S., Szabelska A., Okoniewski M. J., (2015). Analysis of
-AmpliSeq RNA-sequencing enrichment panels. In: Kryszkiewicz, M.,
-Bandyopadhyay, S., Rybinski, H., Pal, S.K. (red.), Pattern Recognition
-and Machine Intelligence, 495-500. Warszawa: Springer International
-Publishing; doi: 10.1007/978-3-319-19941-2_47</li>
-<li>Zyprych-Walczak J., Szabelska A., Handschuh L., Gorczak K., Klamecka
-K., Figlerowicz M., Siatkowski I., (2015). The impact of normalization
-methods on RNA-seq data analysis. <em>BioMed Research
-International</em>, Article ID 621690; doi: 10.1155/2015/621690.</li>
+<li>Szabelska-Beręsewicz, A., Bilska A., Waszkowiak K., Siatkowski I., (2016). A note on the comparison of mixed-effects models for longitudinal studies. <em>Biometrical Letters</em> 53 (2), 165-173.</li>
+<li>Szenajch J., Góralski M., Świercz A., Szabelska A., Zyprych-Walczak J., Synowiec A., Siatkowski I., Handschuh L. (2016). Zmiany w ekspresji szlaków sygnałowych uczestniczące w wykształcaniu nabytej w obecności erytropoetyny oporności na ci-splatynę i paklitaksel w komórkach ludzkiego raka jajnika. Nowotwory, vol. 66, suppl. 2, p. 50.</li>
 </ul>
-<h2 id="section-7">2014</h2>
+<h2 id="section-7">2015</h2>
 <ul>
-<li>Gorczak K., Klamecka K., Szabelska A., Zyprych-Walczak J.,
-Siatkowski I., (2014). Graphical methods for differential analysis of
-RNA-Seq data. <em>Colloquium Biometricum</em> 44, 167-181.</li>
-<li>Szabelska A., Wiewiorka M., Okoniewski M. J., (2013). ampliQueso:
-Analysis of amplicon enrichment panels. Reviewed R package,
-Bioconductor: <a
-href="http://www.bioconductor.org/packages/release/bioc/html/ampliQueso.html"
-class="uri">http://www.bioconductor.org/packages/release/bioc/html/ampliQueso.html</a></li>
+<li>Wiewiorka M. S., Szabelska A., Okoniewski M. J., (2015). Analysis of AmpliSeq RNA-sequencing enrichment panels. In: Kryszkiewicz, M., Bandyopadhyay, S., Rybinski, H., Pal, S.K. (red.), Pattern Recognition and Machine Intelligence, 495-500. Warszawa: Springer International Publishing; doi: 10.1007/978-3-319-19941-2_47</li>
+<li>Zyprych-Walczak J., Szabelska A., Handschuh L., Gorczak K., Klamecka K., Figlerowicz M., Siatkowski I., (2015). The impact of normalization methods on RNA-seq data analysis. <em>BioMed Research International</em>, Article ID 621690; doi: 10.1155/2015/621690.</li>
 </ul>
-<h2 id="section-8">2013</h2>
+<h2 id="section-8">2014</h2>
 <ul>
-<li>Uszczynska B., Zyprych-Walczak J., Handschuh L., Szabelska A.,
-Kazmierczak M., Woronowicz W., Kozlowski P., Sikorski M. M., Komarnicki
-M., Siatkowski I., Figlerowicz M., (2013). Analysis of boutique arrays:
-A universal method for the selection of the optimal data normalization
-procedure. <em>International Journal of Molecular Medicine</em>, 32 (3),
-668-684.</li>
-<li>Tomkowiak A., Weigt D., Broda Z., Mikolajczyk S., Szabelska A.,
-Zyprych J., Siatkowski I., (2013). Analysis of relationship between
-genetic and phenotypic similarity of alfaalfa mutants inflorescences.
-<em>Nauka Przyr. Technol.</em> 7 (3) #34.</li>
-<li>Okoniewski M. J., Meienberg J., Patrignani A., Szabelska A., Matyas
-G., Schlapbach R., (2013). Precise breakingpoint localization of large
-genomic deletions using PacBio and Illumina next generation sequencers.
-Method summary. <em>Biotechniques</em>, 54 (2), 98-100.</li>
+<li>Gorczak K., Klamecka K., Szabelska A., Zyprych-Walczak J., Siatkowski I., (2014). Graphical methods for differential analysis of RNA-Seq data. <em>Colloquium Biometricum</em> 44, 167-181.</li>
+<li>Szabelska A., Wiewiorka M., Okoniewski M. J., (2013). ampliQueso: Analysis of amplicon enrichment panels. Reviewed R package, Bioconductor: <a href="http://www.bioconductor.org/packages/release/bioc/html/ampliQueso.html" class="uri">http://www.bioconductor.org/packages/release/bioc/html/ampliQueso.html</a></li>
 </ul>
-<h2 id="section-9">2012</h2>
+<h2 id="section-9">2013</h2>
 <ul>
-<li>Szabelska A., Zyprych-Walczak J., Siatkowski I., (2012). Application
-of linear mixed models in the selection of genes from microarray
-experiments with repeated measurements. <em>Colloquium Biometricum</em>
-42, 103-109.</li>
+<li>Uszczynska B., Zyprych-Walczak J., Handschuh L., Szabelska A., Kazmierczak M., Woronowicz W., Kozlowski P., Sikorski M. M., Komarnicki M., Siatkowski I., Figlerowicz M., (2013). Analysis of boutique arrays: A universal method for the selection of the optimal data normalization procedure. <em>International Journal of Molecular Medicine</em>, 32 (3), 668-684.</li>
+<li>Tomkowiak A., Weigt D., Broda Z., Mikolajczyk S., Szabelska A., Zyprych J., Siatkowski I., (2013). Analysis of relationship between genetic and phenotypic similarity of alfaalfa mutants inflorescences. <em>Nauka Przyr. Technol.</em> 7 (3) #34.</li>
+<li>Okoniewski M. J., Meienberg J., Patrignani A., Szabelska A., Matyas G., Schlapbach R., (2013). Precise breakingpoint localization of large genomic deletions using PacBio and Illumina next generation sequencers. Method summary. <em>Biotechniques</em>, 54 (2), 98-100.</li>
 </ul>
-<h2 id="section-10">2011</h2>
+<h2 id="section-10">2012</h2>
 <ul>
-<li>Okoniewski M. J., Lesniewska A., Szabelska A., Zyprych-Walczak J.,
-Ryan M., Wachtel M., Morzy T., Schaeffer B., Schlapbach R., (2011).
-Preferred analysis methods for single genomic regions in RNA sequencing
-revealed by processing the shape of coverage. <em>Nucleic Acids
-Research</em>, doi: 10.1093/nar/gkr1249.</li>
-<li>Schmidt M., L. Handschuh, Zyprych J., Szabelska A., Olejnik-Schmidt
-A., Siatkowski I., Figlerowicz M., (2011). Impact of DNA microarray data
-transformation on gene expression analysis - comparison of two
-normalization method. <em>Acta Biochimica Polonica</em> 58 (4),
-573-580.</li>
-<li>Piekarska-Boniecka H., Siatkowski I., Szabelska A., (2011). The
-usefulness of similarity coefficients in the comparison of biocenosis
-structural units. <em>Nauka Przyroda Technologia</em>, 5 (6) # 111.</li>
-<li>Zyprych-Walczak J., Szabelska A., Siatkowski I., (2011). Application
-of statistical tests in gene selection problems. <em>Biometrical
-Letters</em>, 48 (2), 113-121.</li>
-<li>Waligora H., Weber A., Skrzypczak W., Szabelska A., (2011).
-Influence of weather conditions on damages of some types of sugar maize
-by frit fly (Oscinella frit L.). <em>Nauka Przyroda Technologia</em> 5
-(2) #10.</li>
-<li>Siatkowski M., Szabelska A., Zyprych J., Weres J., Kujawa S.,
-(2010). Growth curve functions in modeling the thin-layer drying of
-corn. <em>Inżynieria Rolnicza</em> 6 (124).</li>
+<li>Szabelska A., Zyprych-Walczak J., Siatkowski I., (2012). Application of linear mixed models in the selection of genes from microarray experiments with repeated measurements. <em>Colloquium Biometricum</em> 42, 103-109.</li>
 </ul>
-<h2 id="section-11">2010</h2>
+<h2 id="section-11">2011</h2>
 <ul>
-<li>Thornton A., Szabelska A., Zyprych J. et. al., (2010). Modelling and
-Optimization of Algae Growth. <em>Proceedings of the 72nd European Study
-Group - Mathematics with Industry</em>, 54-85.</li>
-<li>Siatkowski I., Goszczurna T., Szabelska A., Zyprych J., (2010).
-Coefficients of dissimilarity and similarity with applications.
-<em>Colloquium Biometricum</em> 40, p.13-23.</li>
-<li>Szabelska A., Siatkowski M., Goszczurna T., Zyprych J., (2010).
-Comparison of growth models in R. <em>Nauka Przyroda Technologia</em> 4
-(4) #50.</li>
+<li>Okoniewski M. J., Lesniewska A., Szabelska A., Zyprych-Walczak J., Ryan M., Wachtel M., Morzy T., Schaeffer B., Schlapbach R., (2011). Preferred analysis methods for single genomic regions in RNA sequencing revealed by processing the shape of coverage. <em>Nucleic Acids Research</em>, doi: 10.1093/nar/gkr1249.</li>
+<li>Schmidt M., L. Handschuh, Zyprych J., Szabelska A., Olejnik-Schmidt A., Siatkowski I., Figlerowicz M., (2011). Impact of DNA microarray data transformation on gene expression analysis - comparison of two normalization method. <em>Acta Biochimica Polonica</em> 58 (4), 573-580.</li>
+<li>Piekarska-Boniecka H., Siatkowski I., Szabelska A., (2011). The usefulness of similarity coefficients in the comparison of biocenosis structural units. <em>Nauka Przyroda Technologia</em>, 5 (6) # 111.</li>
+<li>Zyprych-Walczak J., Szabelska A., Siatkowski I., (2011). Application of statistical tests in gene selection problems. <em>Biometrical Letters</em>, 48 (2), 113-121.</li>
+<li>Waligora H., Weber A., Skrzypczak W., Szabelska A., (2011). Influence of weather conditions on damages of some types of sugar maize by frit fly (Oscinella frit L.). <em>Nauka Przyroda Technologia</em> 5 (2) #10.</li>
+<li>Siatkowski M., Szabelska A., Zyprych J., Weres J., Kujawa S., (2010). Growth curve functions in modeling the thin-layer drying of corn. <em>Inżynieria Rolnicza</em> 6 (124).</li>
 </ul>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<h2 id="section-12">2010</h2>
+<ul>
+<li>Thornton A., Szabelska A., Zyprych J. et. al., (2010). Modelling and Optimization of Algae Growth. <em>Proceedings of the 72nd European Study Group - Mathematics with Industry</em>, 54-85.</li>
+<li>Siatkowski I., Goszczurna T., Szabelska A., Zyprych J., (2010). Coefficients of dissimilarity and similarity with applications. <em>Colloquium Biometricum</em> 40, p.13-23.</li>
+<li>Szabelska A., Siatkowski M., Goszczurna T., Zyprych J., (2010). Comparison of growth models in R. <em>Nauka Przyroda Technologia</em> 4 (4) #50.</li>
+</ul>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
@@ -2649,10 +2520,7 @@ class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"><
 <!--radix_placeholder_navigation_after_body-->
 <div class="distill-site-nav distill-site-footer">
 <p>© Copyright 2022 Alicja Szabelska-Beręsewicz</p>
-<p><span style="font-size:0.6rem;"><i class="fas fa-wrench"></i> The
-site made with the distill R-package <i class="fab fa-r-project"></i>
-powered by the distill web framework
-<i class="fab fa-js"></i></span></p>
+<p><span style="font-size:0.6rem;"><i class="fas fa-wrench"></i> The site made with the distill R-package <i class="fab fa-r-project"></i> powered by the distill web framework <i class="fab fa-js"></i></span></p>
 </div>
 <!--/radix_placeholder_navigation_after_body-->
 

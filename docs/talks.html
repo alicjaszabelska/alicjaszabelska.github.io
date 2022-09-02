@@ -50,17 +50,16 @@ pre.numberSource code > span > a:first-child::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  { color: #00769e; background-color: #f1f3f5; }
+  {   }
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-code span { color: #00769e; } /* Normal */
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { color: #657422; } /* Attribute */
+code span.at { } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
-code span.cf { color: #00769e; } /* ControlFlow */
+code span.cf { color: #007ba5; } /* ControlFlow */
 code span.ch { color: #20794d; } /* Char */
 code span.cn { color: #8f5902; } /* Constant */
 code span.co { color: #5e5e5e; } /* Comment */
@@ -74,9 +73,9 @@ code span.fl { color: #ad0000; } /* Float */
 code span.fu { color: #4758ab; } /* Function */
 code span.im { } /* Import */
 code span.in { color: #5e5e5e; } /* Information */
-code span.kw { color: #00769e; } /* Keyword */
+code span.kw { color: #007ba5; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
-code span.ot { color: #00769e; } /* Other */
+code span.ot { color: #007ba5; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
 code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
@@ -1028,6 +1027,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     margin-top: 1.5em;
   }
 
+  .figure img {
+    width: 100%;
+  }
+
   .figure .caption {
     color: rgba(0, 0, 0, 0.6);
     font-size: 12px;
@@ -1857,12 +1860,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
-          var fn = $(this).children()[0]
-          $(this).html(fn.shadowRoot.querySelector("sup"))
-          $(this).id = fn.id
-          fn.remove()
-        }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
           return "<p>" + $('#ref-' + ref).html() + "</p>";
@@ -1877,31 +1874,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
           placement: 'bottom-start'
         });
       });
-
-      // fix footnotes in tables (#411)
-      // replacing broken distill.pub feature
-      $('table d-footnote').each(function() {
-        // we replace internal showAtNode methode which is triggered when hovering a footnote
-        this.hoverBox.showAtNode = function(node) {
-          // ported from https://github.com/distillpub/template/pull/105/files
-          calcOffset = function(elem) {
-              let x = elem.offsetLeft;
-              let y = elem.offsetTop;
-              // Traverse upwards until an `absolute` element is found or `elem`
-              // becomes null.
-              while (elem = elem.offsetParent && elem.style.position != 'absolute') {
-                  x += elem.offsetLeft;
-                  y += elem.offsetTop;
-              }
-
-              return { left: x, top: y };
-          }
-          // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop
-          const bbox = node.getBoundingClientRect();
-          const offset = calcOffset(node);
-          this.show([offset.left + bbox.width, offset.top + bbox.height]);
-        }
-      })
 
       // clear polling timer
       clearInterval(tid);
@@ -2001,8 +1973,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     // mark non-body figures created by knitr chunks as 100% width
     $('.layout-chunk').each(function(i, val) {
       var figures = $(this).find('img, .html-widget');
-      // ignore leaflet img layers (#106)
-      figures = figures.filter(':not(img[class*="leaflet"])')
       if ($(this).attr('data-layout') !== "l-body") {
         figures.css('width', '100%');
       } else {
@@ -2025,7 +1995,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     // get rid of index.html references in header
     if (window.location.protocol !== "file:") {
       $('.distill-site-header a[href]').each(function(i,val) {
-        $(this).attr('href', $(this).attr('href').replace(/^index[.]html/, "./"));
+        $(this).attr('href', $(this).attr('href').replace("index.html", "./"));
       });
     }
 
@@ -2384,7 +2354,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1, orientation=auto"/>
   <meta name="description" content="The personal website of Alicja Beręsewicz"/>
   <meta name="github-repo" content="alicjaszabelska"/>
@@ -2480,278 +2450,139 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </div>
 <h2 id="section">2022</h2>
 <ul>
-<li><em>Konferencja Ochrony Roślin; 62. Sesja Naukowa Instytutu Ochrony
-Roslin - Państwowego Instytutu Badawczego</em>, Poznań
-16-18.02.2022<br />
-Oulema sp. jako potencjalny wektor bakterii patogenicznych zbóż (in
-Polish). Together with: Wielkopolan B., Krawczyk K., Baran M.,
-Obrępalska-Stęplowska A.</li>
+<li><em>Konferencja Ochrony Roślin; 62. Sesja Naukowa Instytutu Ochrony Roslin - Państwowego Instytutu Badawczego</em>, Poznań 16-18.02.2022<br />
+Oulema sp. jako potencjalny wektor bakterii patogenicznych zbóż (in Polish). Together with: Wielkopolan B., Krawczyk K., Baran M., Obrępalska-Stęplowska A.</li>
 </ul>
 <h2 id="section-1">2021</h2>
 <ul>
-<li><p><em>XXIX Międzynarodowy Kongres Medycyny Weterynaryjnej Małych
-Zwierząt PSLWMZ</em>, Łódź 19-11.2021<br />
-Zaburzenia rozwoju płci samic psa i kota - spojrzenie genetyka. (in
-Polish) Together with: Nowacka-Woszuk J., Szczerbal I., Stachowiak M.,
-Szydłowski M., Zyprych-Walczak J., Nowak T., Niżański W., Dzimira S.,
-Łukomska A., Houszka M., Gogulski M., Stachecka J., Badura M., Świtoński
-M.<br />
-Wnętrostwo psów - poszukiwanie predysponujących markerów genetycznych.
-(in Polish). Together with: Stachowiak M., Nowacka-Woszuk J., Krzemińska
-P., Zyprych-Walczak J., Nowak T., Sosiński O., Woga W., Świtoński
-M.</p></li>
-<li><p><em>IX Zjazd Towarzystwa Biologii Rozrodu : Konferencja
-on-line</em>, Poznań 02-04.09.2021<br />
-Whole genome sequencing in searching for genetic background of disorders
-of sex development in French Bulldog, American Stafford Terrier and
-Yorkshire Terriers dogs. Together with: Nowacka-Woszuk J., Stachowiak
-M., Szczerbal I., Szydlowski M., Zyprych-Walczak J., Nowak T.,
-Krzeminska P., Świtonski M.<br />
-Extensive differences of gene expression profiles between descended and
-undescended canine testes revealed by whole transcriptome sequencing
-(RNA-seq). Together with: Stachowiak M., Zyprych-Walczak J., Nowak T.,
-Krzeminska P., Sosinski O., Nowacka-Woszuk J., Świtonski M.</p></li>
-<li><p><em>Konferencja Ochrony Roślin; 61. Sesja Naukowa Instytutu
-Ochrony Roslin - Państwowego Instytutu Badawczego</em>, Poznań
-10-12.02.2021<br />
-Identyfikacja bakterii związanych z Oulema spp. w zależności od stadium
-rozwojowego, uprawy oraz lokalizacji. (in Polish) Together with:
-Wielkopolan B., Krawczyk K., Baran M., Roik K., Obrępalska-Stęplowska
-A.</p></li>
+<li><p><em>XXIX Międzynarodowy Kongres Medycyny Weterynaryjnej Małych Zwierząt PSLWMZ</em>, Łódź 19-11.2021<br />
+Zaburzenia rozwoju płci samic psa i kota - spojrzenie genetyka. (in Polish) Together with: Nowacka-Woszuk J., Szczerbal I., Stachowiak M., Szydłowski M., Zyprych-Walczak J., Nowak T., Niżański W., Dzimira S., Łukomska A., Houszka M., Gogulski M., Stachecka J., Badura M., Świtoński M.<br />
+Wnętrostwo psów - poszukiwanie predysponujących markerów genetycznych. (in Polish). Together with: Stachowiak M., Nowacka-Woszuk J., Krzemińska P., Zyprych-Walczak J., Nowak T., Sosiński O., Woga W., Świtoński M.</p></li>
+<li><p><em>IX Zjazd Towarzystwa Biologii Rozrodu : Konferencja on-line</em>, Poznań 02-04.09.2021<br />
+Whole genome sequencing in searching for genetic background of disorders of sex development in French Bulldog, American Stafford Terrier and Yorkshire Terriers dogs. Together with: Nowacka-Woszuk J., Stachowiak M., Szczerbal I., Szydlowski M., Zyprych-Walczak J., Nowak T., Krzeminska P., Świtonski M.<br />
+Extensive differences of gene expression profiles between descended and undescended canine testes revealed by whole transcriptome sequencing (RNA-seq). Together with: Stachowiak M., Zyprych-Walczak J., Nowak T., Krzeminska P., Sosinski O., Nowacka-Woszuk J., Świtonski M.</p></li>
+<li><p><em>Konferencja Ochrony Roślin; 61. Sesja Naukowa Instytutu Ochrony Roslin - Państwowego Instytutu Badawczego</em>, Poznań 10-12.02.2021<br />
+Identyfikacja bakterii związanych z Oulema spp. w zależności od stadium rozwojowego, uprawy oraz lokalizacji. (in Polish) Together with: Wielkopolan B., Krawczyk K., Baran M., Roik K., Obrępalska-Stęplowska A.</p></li>
 </ul>
 <h2 id="section-2">2018</h2>
 <ul>
-<li><p><em>ICCVS Fall Scientific Symposium 2018</em>, Gdańsk
-14-15.11.2018<br />
-Statistical Analysis of RNA-seq Data - Bringing Results to Scientists
-(invited talk). Together with Zyprych-Walczak J.</p></li>
-<li><p><em>The International Conference on Trends and Perspectives in
-Linear Statistical Inference - LinStat’2018</em>, Będlewo k. Poznania
-20-24.08.2018<br />
-Statistical methods for genes selection based on RNA-seq coverage
-profiles. Together with: Okoniewski M., Siatkowski I. Effect of
-gene-gene correlation in RNA-seq data analysis. Together with:
-Zyprych-Walczak J., Siatkowski I., Leśniewska A., Okoniewski M.</p></li>
-<li><p><em>The 29th International Biometric Conference - IBC2018</em>,
-Barcelona 08-13.07.2018<br />
-The difficult genes and their impact on RNA-seq data analysis. Together
-with: Zyprych-Walczak J., Siatkowski I., Okoniewski M.</p></li>
+<li><p><em>ICCVS Fall Scientific Symposium 2018</em>, Gdańsk 14-15.11.2018<br />
+Statistical Analysis of RNA-seq Data - Bringing Results to Scientists (invited talk). Together with Zyprych-Walczak J.</p></li>
+<li><p><em>The International Conference on Trends and Perspectives in Linear Statistical Inference - LinStat’2018</em>, Będlewo k. Poznania 20-24.08.2018<br />
+Statistical methods for genes selection based on RNA-seq coverage profiles. Together with: Okoniewski M., Siatkowski I. Effect of gene-gene correlation in RNA-seq data analysis. Together with: Zyprych-Walczak J., Siatkowski I., Leśniewska A., Okoniewski M.</p></li>
+<li><p><em>The 29th International Biometric Conference - IBC2018</em>, Barcelona 08-13.07.2018<br />
+The difficult genes and their impact on RNA-seq data analysis. Together with: Zyprych-Walczak J., Siatkowski I., Okoniewski M.</p></li>
 </ul>
 <h2 id="section-3">2017</h2>
 <ul>
-<li><p><em>The 47th International Biometrical Colloquium</em>, Kiry k.
-Zakopanego 10-14.09.2017<br />
-Implementation of testing the parallelism for four-parameter logistic
-model in R. Together with: Zyprych-Walczak J., Siatkowski I.</p></li>
-<li><p><em>16th International conference of Critical Assessment of
-Massive Data Analysis - CAMDA 2017</em>, Praga 22-23.07.2017<br />
-Analysis of CAMDA RNA-seq data with the knowlegde of protein domains in
-genes. Together with: Leśniewska A., Zyprych-Walczak J., Okoniewski
-M.</p></li>
+<li><p><em>The 47th International Biometrical Colloquium</em>, Kiry k. Zakopanego 10-14.09.2017<br />
+Implementation of testing the parallelism for four-parameter logistic model in R. Together with: Zyprych-Walczak J., Siatkowski I.</p></li>
+<li><p><em>16th International conference of Critical Assessment of Massive Data Analysis - CAMDA 2017</em>, Praga 22-23.07.2017<br />
+Analysis of CAMDA RNA-seq data with the knowlegde of protein domains in genes. Together with: Leśniewska A., Zyprych-Walczak J., Okoniewski M.</p></li>
 </ul>
 <h2 id="section-4">2016</h2>
 <ul>
-<li><p><em>RBioMeSs – R and Bioinformatics/Medical statistics</em>,
-Warszawa 24.11.2016<br />
-Dyskusja biologa ze statystykiem w towa-rzystwie R - czyli jak znaleźć
-przydatne informacje w bezmiarze danych biologicznych. (invited talk)
-Together with: Zyprych-Walczak J.</p></li>
+<li><p><em>RBioMeSs – R and Bioinformatics/Medical statistics</em>, Warszawa 24.11.2016<br />
+Dyskusja biologa ze statystykiem w towa-rzystwie R - czyli jak znaleźć przydatne informacje w bezmiarze danych biologicznych. (invited talk) Together with: Zyprych-Walczak J.</p></li>
 <li><p><em>IV Kongres Onkologii Polskiej</em>, Łódź 12-15.10.2016<br />
-Zmiany w ekspresji szlaków sygnałowych uczestniczące w wykształcaniu
-nabytej w obecności erytropoetyny oporności na cisplatynę i paklitaksel
-w komórkach ludzkiego raka jajnika (in Polish). Together with: Szenajch
-J., Góralski M., Świercz A., Zyprych-Walczak J., Synowiec A., Siatkowski
-I., Handschuh L.</p></li>
-<li><p><em>European R Users Meeting - eRum 2016</em>, Poznań - organiser
-12-14.10.2016</p></li>
-<li><p><em>LXXXI Zjazd Naukowy Polskiego Towarzystwa
-Zootechnicznego</em>, Warszawa 21-23.09.2016<br />
-Accuracy of the selected linear models applied for estimation of the
-heritability coefficient in the dairy cattle population. Together with:
-Różalska-Zawieja J., Nienartowicz-Zdrojewska A., Sobek Z., Siatkowski
-I., Zyprych-Walczak J.<br />
-Herds influence of the heritability of pregnency length in the dairy
-cattle population. Together with: Różalska-Zawieja J.,
-Nienartowicz-Zdrojewska A., Sobek Z., Siatkowski I., Zyprych-Walczak
-J.<br />
-Influence of the paternity group size of the heritability of pregnancy
-length in dairy cattle population.Różalska-Zawieja J.,
-Nienartowicz-Zdrojewska A., Sobek Z., Siatkowski I., Zyprych-Walczak
-J.</p></li>
-<li><p><em>The 46th International Biometrical Colloquium</em>, Lublin
-05-07.09.2016<br />
-Statistical methods for survival data analysis. Together with:
-Siatkowski I., Zyprych-Walczak J.</p></li>
-<li><p><em>BioInformatics in Torun 2016 - BIT16</em>, Toruń
-16-18.06.2016<br />
-Influence of the primary analysis on discovering differentially
-expressed genes based on RNA-Seq data. Together with: Zyprych-Walczak
-J., Siatkowski I., Okoniewski M.</p></li>
-<li><p><em>Nowe osiągnięcia polskich zespołów badawczych w dziedzinie
-genetyki, hodowli i biotechnologii roślin</em>, Międzyzdroje
-08-10.06.2016<br />
-Analiza zmienności genotypów kolekcyjnych soi pod kątem ich przydatności
-do hodowli w warunkach Polski. Together with: Nawracała J.,
-Kurasiak-Popowska D., Siatkowski I.</p></li>
-<li><p><em>XIII Poznan Academic Meeting of R Users - PAZUR 13</em>,
-Poznań 14.01.2016<br />
-Analiza i wizualizacja danych pochodzących z głębokiego sekwencjonowania
-na przykładzie pakietu ampliQueso (in Polish).</p></li>
+Zmiany w ekspresji szlaków sygnałowych uczestniczące w wykształcaniu nabytej w obecności erytropoetyny oporności na cisplatynę i paklitaksel w komórkach ludzkiego raka jajnika (in Polish). Together with: Szenajch J., Góralski M., Świercz A., Zyprych-Walczak J., Synowiec A., Siatkowski I., Handschuh L.</p></li>
+<li><p><em>European R Users Meeting - eRum 2016</em>, Poznań - organiser 12-14.10.2016</p></li>
+<li><p><em>LXXXI Zjazd Naukowy Polskiego Towarzystwa Zootechnicznego</em>, Warszawa 21-23.09.2016<br />
+Accuracy of the selected linear models applied for estimation of the heritability coefficient in the dairy cattle population. Together with: Różalska-Zawieja J., Nienartowicz-Zdrojewska A., Sobek Z., Siatkowski I., Zyprych-Walczak J.<br />
+Herds influence of the heritability of pregnency length in the dairy cattle population. Together with: Różalska-Zawieja J., Nienartowicz-Zdrojewska A., Sobek Z., Siatkowski I., Zyprych-Walczak J.<br />
+Influence of the paternity group size of the heritability of pregnancy length in dairy cattle population.Różalska-Zawieja J., Nienartowicz-Zdrojewska A., Sobek Z., Siatkowski I., Zyprych-Walczak J.</p></li>
+<li><p><em>The 46th International Biometrical Colloquium</em>, Lublin 05-07.09.2016<br />
+Statistical methods for survival data analysis. Together with: Siatkowski I., Zyprych-Walczak J.</p></li>
+<li><p><em>BioInformatics in Torun 2016 - BIT16</em>, Toruń 16-18.06.2016<br />
+Influence of the primary analysis on discovering differentially expressed genes based on RNA-Seq data. Together with: Zyprych-Walczak J., Siatkowski I., Okoniewski M.</p></li>
+<li><p><em>Nowe osiągnięcia polskich zespołów badawczych w dziedzinie genetyki, hodowli i biotechnologii roślin</em>, Międzyzdroje 08-10.06.2016<br />
+Analiza zmienności genotypów kolekcyjnych soi pod kątem ich przydatności do hodowli w warunkach Polski. Together with: Nawracała J., Kurasiak-Popowska D., Siatkowski I.</p></li>
+<li><p><em>XIII Poznan Academic Meeting of R Users - PAZUR 13</em>, Poznań 14.01.2016<br />
+Analiza i wizualizacja danych pochodzących z głębokiego sekwencjonowania na przykładzie pakietu ampliQueso (in Polish).</p></li>
 </ul>
 <h2 id="section-5">2015</h2>
 <ul>
-<li><p><em>RNA-Seq: strategie przetwarzania i interpretacji danych -
-warsztat</em>, Poznań - participant 28.09.2015</p></li>
-<li><p><em>The 45th International Biometrical Colloquium</em>, Dymaczewo
-2015 07-09.09.2015<br />
-The comparison of the normalization methods for RNA-Seq data analysis.
-Together with: Zyprych-Walczak J., Handschuh L., Górczak K., Klamecka
-K., Figlerowicz M. and Siatkowski I.</p></li>
-<li><p><em>X Poznan Academic Meeting of R Users - PAZUR X</em>, Poznań -
-participant 10.04.2015</p></li>
-<li><p><em>IX Poznan Academic Meeting of R Users - PAZUR IX</em>, Poznań
-- participant 11.02.2015</p></li>
+<li><p><em>RNA-Seq: strategie przetwarzania i interpretacji danych - warsztat</em>, Poznań - participant 28.09.2015</p></li>
+<li><p><em>The 45th International Biometrical Colloquium</em>, Dymaczewo 2015 07-09.09.2015<br />
+The comparison of the normalization methods for RNA-Seq data analysis. Together with: Zyprych-Walczak J., Handschuh L., Górczak K., Klamecka K., Figlerowicz M. and Siatkowski I.</p></li>
+<li><p><em>X Poznan Academic Meeting of R Users - PAZUR X</em>, Poznań - participant 10.04.2015</p></li>
+<li><p><em>IX Poznan Academic Meeting of R Users - PAZUR IX</em>, Poznań - participant 11.02.2015</p></li>
 </ul>
 <h2 id="section-6">2014</h2>
 <ul>
-<li><p><em>XL Konferencja Statystyka Matematyczna</em>, Będlewo
-30.11-05.12.2014<br />
-Przegląd problemów i metod związanych z analizą danych dotyczących
-ekspresji genów na podstawie eksperymentu głębokiego sekwencjonowania.
-Together with: Zyprych-Walczak J. and Siatkowski I.</p></li>
-<li><p><em>Polski Akademicki Zlot Użytkowników R - PAZUR 2014</em>,
-Poznań 15-17.10.2014<br />
-Wstęp do R - workshop lecturer together with Zyprych-Walczak J.
-Wykorzystanie R w analizie danych RNA-seq. Together with Zyprych-Walczak
-J.<br />
-Sygnatury genowe chorób - użycie równoległego R i uczenia maszynowego z
-MLInterfaces. Together with Wiewiórka M., and Okoniewski M.</p></li>
-<li><p><em>X Working Seminar on Statistical Methods in Variety
-Testing</em>, Będlewo 30.06-04.07.2014<br />
-RNA-Seq plant data analysis. Together with: Górczak K., Klamecka K.,
-Zyprych-Walczak J., Siatkowski I.</p></li>
-<li><p><em>Wykłady otwarte ze statystyki, UAM</em> Poznań
-21.05.2014<br />
-Statystyczna analiza danych pochodzących z eksperymentów
-mikromacierzowych i sekwencjonowania nowej generacji (in Polish).
-Together with: Zyprych-Walczak J., Klamecka K., Górczak K., Siatkowski
-I.</p></li>
-<li><p><em>VII Poznan Academic Meeting of R Users - PAZUR VII</em>,
-Poznań - participant 11.05.2014</p></li>
-<li><p><em>VI Poznan Academic Meeting of R Users - PAZUR VI</em>, Poznań
-- participant 14.03.2014</p></li>
-<li><p><em>2nd International Congress of Rare and Orphan Diseases -
-RE(ACT) CONGRESS 2014</em>, Bazylea 05-08.03.2014<br />
-True Haploinsufficiency in Rare Aortic Diseases: Identification and
-Characterization of large Deletions using Next Generation Sequencing.
-Together with Meienberg J., Okoniewski M., Patrignani A., Tsai Y.C.,
-Carrel T., Steinmann B., Turner S.W., Korlach J., Röthlisberger B.,
-Schlapbach R., Matyas G.</p></li>
-<li><p><em>V Poznan Academic Meeting of R Users - PAZUR V</em>, Poznań -
-participant 30.01.2014</p></li>
+<li><p><em>XL Konferencja Statystyka Matematyczna</em>, Będlewo 30.11-05.12.2014<br />
+Przegląd problemów i metod związanych z analizą danych dotyczących ekspresji genów na podstawie eksperymentu głębokiego sekwencjonowania. Together with: Zyprych-Walczak J. and Siatkowski I.</p></li>
+<li><p><em>Polski Akademicki Zlot Użytkowników R - PAZUR 2014</em>, Poznań 15-17.10.2014<br />
+Wstęp do R - workshop lecturer together with Zyprych-Walczak J. Wykorzystanie R w analizie danych RNA-seq. Together with Zyprych-Walczak J.<br />
+Sygnatury genowe chorób - użycie równoległego R i uczenia maszynowego z MLInterfaces. Together with Wiewiórka M., and Okoniewski M.</p></li>
+<li><p><em>X Working Seminar on Statistical Methods in Variety Testing</em>, Będlewo 30.06-04.07.2014<br />
+RNA-Seq plant data analysis. Together with: Górczak K., Klamecka K., Zyprych-Walczak J., Siatkowski I.</p></li>
+<li><p><em>Wykłady otwarte ze statystyki, UAM</em> Poznań 21.05.2014<br />
+Statystyczna analiza danych pochodzących z eksperymentów mikromacierzowych i sekwencjonowania nowej generacji (in Polish). Together with: Zyprych-Walczak J., Klamecka K., Górczak K., Siatkowski I.</p></li>
+<li><p><em>VII Poznan Academic Meeting of R Users - PAZUR VII</em>, Poznań - participant 11.05.2014</p></li>
+<li><p><em>VI Poznan Academic Meeting of R Users - PAZUR VI</em>, Poznań - participant 14.03.2014</p></li>
+<li><p><em>2nd International Congress of Rare and Orphan Diseases - RE(ACT) CONGRESS 2014</em>, Bazylea 05-08.03.2014<br />
+True Haploinsufficiency in Rare Aortic Diseases: Identification and Characterization of large Deletions using Next Generation Sequencing. Together with Meienberg J., Okoniewski M., Patrignani A., Tsai Y.C., Carrel T., Steinmann B., Turner S.W., Korlach J., Röthlisberger B., Schlapbach R., Matyas G.</p></li>
+<li><p><em>V Poznan Academic Meeting of R Users - PAZUR V</em>, Poznań - participant 30.01.2014</p></li>
 </ul>
 <h2 id="section-7">2013</h2>
 <ul>
-<li><p><em>IV Poznan Academic Meeting of R Users - PAZUR IV</em>, Poznań
-- participant 13.12.2013</p></li>
-<li><p><em>Seminar of the Bioinformatics Group, BOKU University</em>
-Vienna 26.11.2013<br />
-Microarray vs RNA-seq - novel appoaches for searching interesting genes
-(invited talk). Together with: Zyprych-Walczak J.and Siatkowski
-I.</p></li>
-<li><p><em>18th European Young Statisticions Meeting</em>, Osijek -
-polish representant 26-30.08.2013<br />
-Statistical methods for RNAseq coverage profiles and their applications
-in biological phenomena. Together with Siatkowski I., Okoniewski
-M.</p></li>
+<li><p><em>IV Poznan Academic Meeting of R Users - PAZUR IV</em>, Poznań - participant 13.12.2013</p></li>
+<li><p><em>Seminar of the Bioinformatics Group, BOKU University</em> Vienna 26.11.2013<br />
+Microarray vs RNA-seq - novel appoaches for searching interesting genes (invited talk). Together with: Zyprych-Walczak J.and Siatkowski I.</p></li>
+<li><p><em>18th European Young Statisticions Meeting</em>, Osijek - polish representant 26-30.08.2013<br />
+Statistical methods for RNAseq coverage profiles and their applications in biological phenomena. Together with Siatkowski I., Okoniewski M.</p></li>
 </ul>
 <h2 id="section-8">2012</h2>
 <ul>
-<li><p><em>European Bioconductor Developers’ Meeting 2012</em>, Zurich
-13-14.12.2012<br />
+<li><p><em>European Bioconductor Developers’ Meeting 2012</em>, Zurich 13-14.12.2012<br />
 Nonparametric tests on RNAseq coverage profiles.</p></li>
-<li><p><em>Swiss Institute of Bioinformatics</em>, Lozanna - participant
-12.10.2012<br />
+<li><p><em>Swiss Institute of Bioinformatics</em>, Lozanna - participant 12.10.2012<br />
 Course: Integration of data from different omics.</p></li>
 <li><p><em>Huber’s Group Seminar</em>, Heidelberg 25.09.2012<br />
-Coverage-based methods in the secondary analysis of the RNA-Sequencing
-data. (invited talk)<br />
+Coverage-based methods in the secondary analysis of the RNA-Sequencing data. (invited talk)<br />
 </p></li>
-<li><p><em>European Molecular Biology Labolatory</em>, Heidelberg -
-participant 24-26.09.2012<br />
-Advanced Course: Towards Next-Generation Sequencing Data
-Integration.</p></li>
-<li><p><em>ECCB12 - European Conference on Computational Biology</em>,
-Bazylea - participant 08-12.09.2012</p></li>
-<li><p><em>II Poznański Akademicki Zlot Użytkowników R - PAZUR 2.0</em>,
-Poznań - participant 12.05.2012</p></li>
+<li><p><em>European Molecular Biology Labolatory</em>, Heidelberg - participant 24-26.09.2012<br />
+Advanced Course: Towards Next-Generation Sequencing Data Integration.</p></li>
+<li><p><em>ECCB12 - European Conference on Computational Biology</em>, Bazylea - participant 08-12.09.2012</p></li>
+<li><p><em>II Poznański Akademicki Zlot Użytkowników R - PAZUR 2.0</em>, Poznań - participant 12.05.2012</p></li>
 <li><p><em>Kongres Statystyki Polskiej</em>, Poznań 18-20.04.2012<br />
-Metody selekcji genów uwzględniające korelację pomiędzy genami (in
-Polish). Together with: Zyprych-Walczak J. and Siatkowski I.:</p></li>
-<li><p><em>Poznański Akademicki Zlot Użytkowników R - PAZUR</em>, Poznań
-- participant 05.03.2012</p></li>
+Metody selekcji genów uwzględniające korelację pomiędzy genami (in Polish). Together with: Zyprych-Walczak J. and Siatkowski I.:</p></li>
+<li><p><em>Poznański Akademicki Zlot Użytkowników R - PAZUR</em>, Poznań - participant 05.03.2012</p></li>
 </ul>
 <h2 id="section-9">2011</h2>
 <ul>
-<li><p><em>European Bioconductor Developers’ Meeting 2011</em>,
-Manchester 08-09.12.2011<br />
-Measures of dissimilarity of the coverage functions. together with:
-Okoniewski M. J., Leśniewska A., Zyprych-Walczak J.</p></li>
-<li><p><em>CEN 2011 Bridging Biostatistical Theory and Application</em>,
-Zurich 12-16.09.2011<br />
-Linear Mixed Model in Gene Selection Problem. Together with Siatkowski
-I.</p></li>
-<li><p><em>XLI International Biometricum Colloquium</em>, Lublin
-05-08.09.2011<br />
-Wykorzystanie liniowego modelu mieszanego w problemie selekcji genów.
-Together with Zyprych-Walczak J. and Siatkowski I.</p></li>
+<li><p><em>European Bioconductor Developers’ Meeting 2011</em>, Manchester 08-09.12.2011<br />
+Measures of dissimilarity of the coverage functions. together with: Okoniewski M. J., Leśniewska A., Zyprych-Walczak J.</p></li>
+<li><p><em>CEN 2011 Bridging Biostatistical Theory and Application</em>, Zurich 12-16.09.2011<br />
+Linear Mixed Model in Gene Selection Problem. Together with Siatkowski I.</p></li>
+<li><p><em>XLI International Biometricum Colloquium</em>, Lublin 05-08.09.2011<br />
+Wykorzystanie liniowego modelu mieszanego w problemie selekcji genów. Together with Zyprych-Walczak J. and Siatkowski I.</p></li>
 </ul>
 <h2 id="section-10">2010</h2>
 <ul>
-<li><p><em>Wrocławski Zlot Użytkowników R (WZUR 3.0)</em>, Wrocław
-24-25.09.2010<br />
+<li><p><em>Wrocławski Zlot Użytkowników R (WZUR 3.0)</em>, Wrocław 24-25.09.2010<br />
 Selected multivariate mixed models.</p></li>
-<li><p><em>XL International Biometrical Colloquium and Second
-Polish-Portuguese Workshop on Biometry in honour of Prof. J.T.
-Mexia</em>, Bedlewo 29.08-03.09.2010<br />
-Gene’s selection based on statistical tests. Together with: Zyprych J.
-and Siatkowski I.<br />
-Overview of growth models in R. Together with: Siatkowski M., Goszczurna
-T. and Zyprych J.<br />
-Morfological analysis of inflorescence mutants in alfalfa (Medicago
-sativa L.sl.) with the respect to seed yield traits. Together with:
-Weigt D., Zyprych J., Siatkowski I. and Broda Z.<br />
-Analiza zróżnicowania genetycznego odmian i klonów koniczyny białej
-(Trifolium Repens L.) przy użyciu markerów molekularnych. Together with:
-Tomkowiak A., Zyprych J., Broda Z. and Siatkowski I.</p></li>
-<li><p><em>Tutorial workshop “Robustness: Basic Concepts and
-Applications”</em>, Praga - participant 26-27.06.2010</p></li>
-<li><p><em>30th International Study Group Mathematics with Industry
-2010</em>, Amsterdam 25-29.01.2010<br />
-participation finished with publication: Thornton A., Szabelska A.,
-Zyprych J. et. al. (2010) Modeling and optimization of algae growth.
-Proceedings of the 72nd European Study Group - Mathematics with
-Industry, 54-85.<br />
+<li><p><em>XL International Biometrical Colloquium and Second Polish-Portuguese Workshop on Biometry in honour of Prof. J.T. Mexia</em>, Bedlewo 29.08-03.09.2010<br />
+Gene’s selection based on statistical tests. Together with: Zyprych J. and Siatkowski I.<br />
+Overview of growth models in R. Together with: Siatkowski M., Goszczurna T. and Zyprych J.<br />
+Morfological analysis of inflorescence mutants in alfalfa (Medicago sativa L.sl.) with the respect to seed yield traits. Together with: Weigt D., Zyprych J., Siatkowski I. and Broda Z.<br />
+Analiza zróżnicowania genetycznego odmian i klonów koniczyny białej (Trifolium Repens L.) przy użyciu markerów molekularnych. Together with: Tomkowiak A., Zyprych J., Broda Z. and Siatkowski I.</p></li>
+<li><p><em>Tutorial workshop “Robustness: Basic Concepts and Applications”</em>, Praga - participant 26-27.06.2010</p></li>
+<li><p><em>30th International Study Group Mathematics with Industry 2010</em>, Amsterdam 25-29.01.2010<br />
+participation finished with publication: Thornton A., Szabelska A., Zyprych J. et. al. (2010) Modeling and optimization of algae growth. Proceedings of the 72nd European Study Group - Mathematics with Industry, 54-85.<br />
 </p></li>
-<li><p><em>14th Quantitative Trait Locus and Marker Assisted Selection
-Workshop</em>, Poznań - participant 17-18.05.2010</p></li>
+<li><p><em>14th Quantitative Trait Locus and Marker Assisted Selection Workshop</em>, Poznań - participant 17-18.05.2010</p></li>
 </ul>
 <h2 id="section-11">2009</h2>
 <ul>
-<li><p><em>Statystyka Matematyczna - WISłA ’09</em>, Wisła
-07-11.12.2009<br />
-Wybrane testy statystyczne w selekcji genów. Together with: Siatkowski
-I. and Zyprych J.</p></li>
-<li><p><em>Microarrays in the analysis of expression of genes: The tool
-in the basic and clinical researches</em>, Gliwice - participant
-18-20.11.2009</p></li>
-<li><p><em>12th International Workshop for Young Mathematicians -
-“Probability Theory and Statistics”</em>, Kraków - participant
-21-25.09.2009<br />
+<li><p><em>Statystyka Matematyczna - WISłA ’09</em>, Wisła 07-11.12.2009<br />
+Wybrane testy statystyczne w selekcji genów. Together with: Siatkowski I. and Zyprych J.</p></li>
+<li><p><em>Microarrays in the analysis of expression of genes: The tool in the basic and clinical researches</em>, Gliwice - participant 18-20.11.2009</p></li>
+<li><p><em>12th International Workshop for Young Mathematicians - “Probability Theory and Statistics”</em>, Kraków - participant 21-25.09.2009<br />
 </p></li>
 </ul>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
@@ -2768,10 +2599,7 @@ class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"><
 <!--radix_placeholder_navigation_after_body-->
 <div class="distill-site-nav distill-site-footer">
 <p>© Copyright 2022 Alicja Szabelska-Beręsewicz</p>
-<p><span style="font-size:0.6rem;"><i class="fas fa-wrench"></i> The
-site made with the distill R-package <i class="fab fa-r-project"></i>
-powered by the distill web framework
-<i class="fab fa-js"></i></span></p>
+<p><span style="font-size:0.6rem;"><i class="fas fa-wrench"></i> The site made with the distill R-package <i class="fab fa-r-project"></i> powered by the distill web framework <i class="fab fa-js"></i></span></p>
 </div>
 <!--/radix_placeholder_navigation_after_body-->
 
