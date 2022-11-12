@@ -30,6 +30,12 @@ meta() %>%
 
 ## 2022
 
+* *VI Ogólnopolskie Sympozjum Naukowe – "Metagenomy różnych środowisk"*, Puławy 23-24.06.2022 
+Wpływ insektycydów na mikrobiom larw Oulema spp. (in Polish). Together with: Wielkopolan B., Krawczyk K., Obrępalska-Stęplowska A.
+
+* *VI Polski Kongres Genetyki*, Kraków 27-30.06.2022 
+Cryptorchidism has a strong effect on gene expression patterns in canine testes. Together with: Stachowiak M., Nowacka-Woszuk J., Krzemińska P., Zyprych-Walczak J., Nowak T., Sosiński O., Świtoński M.
+
 * *Konferencja Ochrony Roślin; 62. Sesja Naukowa Instytutu Ochrony Roslin - Państwowego Instytutu Badawczego*, Poznań 16-18.02.2022      
 Oulema sp. jako potencjalny wektor bakterii patogenicznych zbóż (in Polish). Together with: Wielkopolan B., Krawczyk K., Baran M., Obrępalska-Stęplowska A.                                                     
 
