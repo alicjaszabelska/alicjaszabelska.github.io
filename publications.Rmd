@@ -12,18 +12,19 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## 2022
 
-+ Nowacka-Woszuk, J., Stachowiak, M., Szczerbal, I., Szydlowski, M., Szabelska-Beresewicz, A., Zyprych-Walczak, J., ... & Switonski, M. (2022). Whole genome sequencing identifies a missense polymorphism in PADI6 associated with testicular/ovotesticular XX disorder of sex development in dogs. *Genomics*, 114(4), 110389, doi: https://doi.org/10.1016/j.ygeno.2022.110389
-+ Sobek, Z., Rozanska-Zawieja, J., Siatkowski, I., Szabelska-Beresewicz, A., & Zyprych-Walczak, J. (2022). Assessment of the accuracy of selected models used to estimate the heritability coefficient in a cattle population. *Animal Science and Genetics*, 18(1), doi: https://10.5604/01.3001.0015.7774
++ Krawczyk K., Szabelska-Beręsewicz A., Przemieniecki S.W., Szymańczyk M., Obrępalska-Stęplowska A. (2022) Insect Gut Bacteria Promoting the Growth of Tomato Plants (Solanum lycopersicum L.). *Int. J. Mol. Sci.*, 23, 13548, doi: https://doi.org/10.3390/ijms232113548
++ Nowacka-Woszuk J., Stachowiak M., Szczerbal I., Szydlowski M., Szabelska-Beręsewicz A., Zyprych-Walczak J., ... & Switonski M. (2022). Whole genome sequencing identifies a missense polymorphism in PADI6 associated with testicular/ovotesticular XX disorder of sex development in dogs. *Genomics*, 114(4), 110389, doi: https://doi.org/10.1016/j.ygeno.2022.110389
++ Sobek Z., Rozanska-Zawieja J., Siatkowski I., Szabelska-Beresewicz A., & Zyprych-Walczak J. (2022). Assessment of the accuracy of selected models used to estimate the heritability coefficient in a cattle population. *Animal Science and Genetics*, 18(1), doi: https://10.5604/01.3001.0015.7774
 
 ## 2021
 
-+ Wielkopolan, B., Krawczyk, K., Szabelska-Beręsewicz, A., Obrępalska-Stęplowska, A. (2021). The structure of the cereal leaf beetle (Oulema melanopus) microbiome depends on the insect’s developmental stage, host plant, and origin. Scientific reports, 11(1), 1--19, doi: https://doi.org/10.1038/s41598-021-99411-9
-+ Mikac, S., Rychłowski, M., Dziadosz, A., Szabelska-Beresewicz, A., Fahraeus, R., Hupp, T., Sznarkowska, A. (2021). Identification of a Stable, Non-Canonically Regulated Nrf2 Form in Lung Cancer Cells. *Antioxidants*, 10(5), 786, doi: https://doi.org/10.3390/antiox10050786
-+ Różańska-Zawieja, J., Winnicki, S., Zyprych-Walczak, J., Szabelska-Beręsewicz, A., Siatkowski, I., Nowak, W., Stefańska, B., Kujawiak, R., Sobek, Z. (2021). The Effect of Feeding Management and Culling of Cows on the Lactation Curves and Milk Production of Primiparous Dairy Cows. *Animals*, 11(7), 1959, doi: https://doi.org/10.3390/ani11071959
++ Wielkopolan B., Krawczyk K., Szabelska-Beręsewicz A., Obrępalska-Stęplowska A. (2021). The structure of the cereal leaf beetle (Oulema melanopus) microbiome depends on the insect’s developmental stage, host plant, and origin. Scientific reports, 11(1), 1--19, doi: https://doi.org/10.1038/s41598-021-99411-9
++ Mikac S., Rychłowski M., Dziadosz A., Szabelska-Beresewicz A., Fahraeus R., Hupp T., Sznarkowska A. (2021). Identification of a Stable, Non-Canonically Regulated Nrf2 Form in Lung Cancer Cells. *Antioxidants*, 10(5), 786, doi: https://doi.org/10.3390/antiox10050786
++ Różańska-Zawieja J., Winnicki S., Zyprych-Walczak J., Szabelska-Beręsewicz A., Siatkowski I., Nowak W., Stefańska B., Kujawiak R., Sobek Z. (2021). The Effect of Feeding Management and Culling of Cows on the Lactation Curves and Milk Production of Primiparous Dairy Cows. *Animals*, 11(7), 1959, doi: https://doi.org/10.3390/ani11071959
 
 ## 2020
 
-+ Szenajch, J., Szabelska-Beręsewicz, A., Świercz, A., Zyprych-Walczak, J., Siatkowski, I., Góralski, M., Synowiec, A., & Handschuh, L. (2020). Transcriptome Remodeling in Gradual Development of Inverse Resistance between Paclitaxel and Cisplatin in Ovarian Cancer Cells. *International journal of molecular sciences*, 21(23), 9218, doi: https://doi.org/10.3390/ijms21239218.
++ Szenajch J., Szabelska-Beręsewicz A., Świercz A., Zyprych-Walczak J., Siatkowski, I., Góralski M., Synowiec A. & Handschuh, L. (2020). Transcriptome Remodeling in Gradual Development of Inverse Resistance between Paclitaxel and Cisplatin in Ovarian Cancer Cells. *International journal of molecular sciences*, 21(23), 9218, doi: https://doi.org/10.3390/ijms21239218.
 + Johnson C. R., Lettie J., Mack-Crane S., Szabelska-Beręsewicz A. (2020). Branch duplication in trees: uniqueness of seeds and enumeration of seeds. *Proyecciones (Antofagasta, On line)*, 39(2), 451-465, doi: https://doi.org/10.22199/issn.0717-6279-2020-02-0028.
 
 ## 2019
