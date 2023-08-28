@@ -10,12 +10,18 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+## 2023
+
++ Wertheim-Tysarowska, K., Osipowicz, K., Gielniewski, B., Wojtaś, B., Szabelska-Beręsewicz, A., Zyprych-Walczak, J., ... & Jezela-Stanek, A. (2023). The Epidermal Transcriptome Analysis of a Novel c. 639_642dup LORICRIN Variant-Delineation of the Loricrin Keratoderma Pathology. *Int. J. Mol. Sci.*, 24(11), 9459, doi: https://doi.org/10.3390/ijms24119459
++ Górna, A., Szabelska-Beręsewicz, A., Wieruszewski, M., Starosta-Grala, M., Stanula, Z., Kożuch, A., & Adamowicz, K. (2023). Predicting Post-Production Biomass Prices. *Energies*, 16(8), 3470, doi: https://doi.org/10.3390/en16083470
+
 ## 2022
 
 + Górna, A.; Wieruszewski, M.; Szabelska-Beręsewicz, A.; Stanula, Z.; Adamowicz, K. (2022) Biomass Price Prediction Based on the Example of Poland. *Forests*, 13, 2179, doi: https://doi.org/10.3390/f13122179
 + Krawczyk K., Szabelska-Beręsewicz A., Przemieniecki S.W., Szymańczyk M., Obrępalska-Stęplowska A. (2022) Insect Gut Bacteria Promoting the Growth of Tomato Plants (Solanum lycopersicum L.). *Int. J. Mol. Sci.*, 23, 13548, doi: https://doi.org/10.3390/ijms232113548
 + Nowacka-Woszuk J., Stachowiak M., Szczerbal I., Szydlowski M., Szabelska-Beręsewicz A., Zyprych-Walczak J., ... & Switonski M. (2022). Whole genome sequencing identifies a missense polymorphism in PADI6 associated with testicular/ovotesticular XX disorder of sex development in dogs. *Genomics*, 114(4), 110389, doi: https://doi.org/10.1016/j.ygeno.2022.110389
 + Sobek Z., Rozanska-Zawieja J., Siatkowski I., Szabelska-Beresewicz A., & Zyprych-Walczak J. (2022). Assessment of the accuracy of selected models used to estimate the heritability coefficient in a cattle population. *Animal Science and Genetics*, 18(1), doi: https://10.5604/01.3001.0015.7774
++ Niedziela, G., Szabelska-Beręsewicz, A., Zyprych-Walczak, J., Graczyk, M. (2022). Application of edgeR and DESeq2 methods in plant experiments based on RNA-seq technology. *Biometrical Letters* 59(2), 127-139, doi: https://doi.org/10.2478/bile-2022-0009
 
 ## 2021
 
