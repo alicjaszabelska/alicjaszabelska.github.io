@@ -31,7 +31,7 @@ meta() %>%
 
 ## 2023
 
-* *V Conference of the Central European Network"*, Basel 3-7.09.2023
+* *V Conference of the Central European Network, CEN2023*, Basel 3-7.09.2023
   Statistical methods to analyse the structure of the microbiome based on cereal leaf beetle (*Oulema melanopus*) data. (invited talk as a keynote speaker)
 * *VII Ogólnopolskie Sympozjum Naukowe – "Metagenomy różnych środowisk"*, Lublin 20-21.06.2023
   Bakterie jelitowe owadów wspomagające wzrost roślin pomidora (*Solanum lycopersicum L.*). (in Polish). Together with: Krawczyk K., Przemieniecki S. W., Szymańczyk M., Obrępalska-Stęplowska A.
