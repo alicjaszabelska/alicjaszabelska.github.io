@@ -10,8 +10,16 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+
+## 2024
+
++ Stachowiak, M., Nowacka-Woszuk, J., Szabelska-Beresewicz, A., Zyprych-Walczak, J., Krzeminska, P., Sosinski, O., ... & Switonski, M. (2024). A massive alteration of gene expression in undescended testicles of dogs and the association of KAT6A variants with cryptorchidism. *PNAS*, 121(7), e2312724121, doi: 10.1073/pnas.231272412
++ Wielkopolan, B., Szabelska‐Beręsewicz, A., Gawor, J., & Obrępalska‐Stęplowska, A. (2024). Cereal leaf beetle‐associated bacteria enhance the survival of their host upon insecticide treatments and respond differently to insecticides with different modes of action. *Environmental Microbiology Reports*, 16(2), e13247, doi: doi.org/10.1111/1758-2229.13247
+
 ## 2023
 
++ Szabelska-Beresewicz, A., Zyprych-Walczak, J. Siatkowski I, Okoniewski M. (2023) Ambiguous genes due to aligners and their impact on RNA-seq data analysis. *Sci Rep.* 8; 13(1), 21770, doi:  10.1038/s41598-023-41085-6
++ Jakubowska M, Dobosz R, Szabelska-Beręsewicz A, Zyprych-Walczak J, Kowalska J, Tratwal A. (2023) Effects of water-based extracts of peppermint (Mentha piperita L.) and French marigold (Tagetes patula L.) on the transformation of larvae and nymphs of two-spotted spider mite (Tetranychus urticae Koch). *Journal of Plant Protection Research*, 63(3), 474-480, doi: 10.24425/jppr.2023.147828 
 + Wertheim-Tysarowska, K., Osipowicz, K., Gielniewski, B., Wojtaś, B., Szabelska-Beręsewicz, A., Zyprych-Walczak, J., ... & Jezela-Stanek, A. (2023). The Epidermal Transcriptome Analysis of a Novel c. 639_642dup LORICRIN Variant-Delineation of the Loricrin Keratoderma Pathology. *Int. J. Mol. Sci.*, 24(11), 9459, doi: https://doi.org/10.3390/ijms24119459
 + Górna, A., Szabelska-Beręsewicz, A., Wieruszewski, M., Starosta-Grala, M., Stanula, Z., Kożuch, A., & Adamowicz, K. (2023). Predicting Post-Production Biomass Prices. *Energies*, 16(8), 3470, doi: https://doi.org/10.3390/en16083470
 
